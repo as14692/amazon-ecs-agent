@@ -19,8 +19,8 @@ package control
 import (
 	"fmt"
 
-	"github.com/aws/amazon-ecs-agent/agent/config"
-	"github.com/aws/amazon-ecs-agent/agent/taskresource/cgroup/control/factory"
+	"github.com/as14692/amazon-ecs-agent/agent/config"
+	"github.com/as14692/amazon-ecs-agent/agent/taskresource/cgroup/control/factory"
 	"github.com/opencontainers/runtime-spec/specs-go"
 
 	"github.com/cihub/seelog"

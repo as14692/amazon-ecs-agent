@@ -16,11 +16,11 @@ package factory
 import (
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/config"
-	ssmclient "github.com/aws/amazon-ecs-agent/agent/ssm"
-	agentversion "github.com/aws/amazon-ecs-agent/agent/version"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/credentials"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/httpclient"
+	"github.com/as14692/amazon-ecs-agent/agent/config"
+	ssmclient "github.com/as14692/amazon-ecs-agent/agent/ssm"
+	agentversion "github.com/as14692/amazon-ecs-agent/agent/version"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/credentials"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/httpclient"
 	"github.com/aws/aws-sdk-go/aws"
 	awscreds "github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"

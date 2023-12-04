@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	ni "github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	ni "github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
 	"github.com/stretchr/testify/assert"
 )
 

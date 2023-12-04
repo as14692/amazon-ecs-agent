@@ -14,15 +14,15 @@
 package v4
 
 import (
-	"github.com/aws/amazon-ecs-agent/agent/api"
-	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
-	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
-	v2 "github.com/aws/amazon-ecs-agent/agent/handlers/v2"
-	ni "github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
-	tmdsresponse "github.com/aws/amazon-ecs-agent/ecs-agent/tmds/handlers/response"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/tmds/handlers/utils"
-	tmdsv4 "github.com/aws/amazon-ecs-agent/ecs-agent/tmds/handlers/v4/state"
+	"github.com/as14692/amazon-ecs-agent/agent/api"
+	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
+	"github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
+	v2 "github.com/as14692/amazon-ecs-agent/agent/handlers/v2"
+	ni "github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	tmdsresponse "github.com/as14692/amazon-ecs-agent/ecs-agent/tmds/handlers/response"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/tmds/handlers/utils"
+	tmdsv4 "github.com/as14692/amazon-ecs-agent/ecs-agent/tmds/handlers/v4/state"
 
 	"github.com/pkg/errors"
 )

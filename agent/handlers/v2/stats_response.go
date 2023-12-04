@@ -14,8 +14,8 @@
 package v2
 
 import (
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
-	"github.com/aws/amazon-ecs-agent/agent/stats"
+	"github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
+	"github.com/as14692/amazon-ecs-agent/agent/stats"
 	"github.com/cihub/seelog"
 	"github.com/docker/docker/api/types"
 	"github.com/pkg/errors"

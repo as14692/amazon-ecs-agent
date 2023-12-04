@@ -19,16 +19,16 @@ package engine
 import (
 	"testing"
 
-	ni "github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	ni "github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
 
-	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
-	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
-	"github.com/aws/amazon-ecs-agent/agent/data"
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
-	"github.com/aws/amazon-ecs-agent/agent/engine/image"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/api/attachment"
-	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
-	apitaskstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/task/status"
+	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
+	"github.com/as14692/amazon-ecs-agent/agent/data"
+	"github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
+	"github.com/as14692/amazon-ecs-agent/agent/engine/image"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/api/attachment"
+	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
+	apitaskstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/task/status"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -13,4 +13,4 @@
 
 package fsx
 
-//go:generate mockgen -destination=mocks/fsx_mocks.go -copyright_file=../../scripts/copyright_file github.com/aws/amazon-ecs-agent/agent/fsx FSxClient
+//go:generate mockgen -destination=mocks/fsx_mocks.go -copyright_file=../../scripts/copyright_file github.com/as14692/amazon-ecs-agent/agent/fsx FSxClient

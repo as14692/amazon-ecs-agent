@@ -13,4 +13,4 @@
 
 package nswrapper
 
-//go:generate mockgen -destination=mocks/nswrapper_mocks_linux.go -copyright_file=../../../scripts/copyright_file github.com/aws/amazon-ecs-agent/agent/utils/nswrapper NS
+//go:generate mockgen -destination=mocks/nswrapper_mocks_linux.go -copyright_file=../../../scripts/copyright_file github.com/as14692/amazon-ecs-agent/agent/utils/nswrapper NS

@@ -16,7 +16,7 @@ package exec
 import (
 	osexec "os/exec"
 
-	"github.com/aws/amazon-ecs-agent/ecs-init/cmd"
+	"github.com/as14692/amazon-ecs-agent/ecs-init/cmd"
 )
 
 //go:generate mockgen.sh sysctl $GOFILE sysctl

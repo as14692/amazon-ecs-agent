@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/ecs-agent/utils/cipher"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/utils/cipher"
 	"github.com/stretchr/testify/assert"
 )
 

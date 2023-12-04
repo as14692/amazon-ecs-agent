@@ -24,11 +24,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/amazon-ecs-agent/agent/config"
-	mock_infologger "github.com/aws/amazon-ecs-agent/agent/logger/audit/mocks"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/credentials"
-	auditinterface "github.com/aws/amazon-ecs-agent/ecs-agent/logger/audit"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/logger/audit/request"
+	"github.com/as14692/amazon-ecs-agent/agent/config"
+	mock_infologger "github.com/as14692/amazon-ecs-agent/agent/logger/audit/mocks"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/credentials"
+	auditinterface "github.com/as14692/amazon-ecs-agent/ecs-agent/logger/audit"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger/audit/request"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 )

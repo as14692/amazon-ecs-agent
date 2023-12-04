@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"testing"
 
-	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
-	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
-	apitaskstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/task/status"
+	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
+	apitaskstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/task/status"
 	"github.com/stretchr/testify/assert"
 )
 

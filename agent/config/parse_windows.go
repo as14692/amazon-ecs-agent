@@ -23,7 +23,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/aws/amazon-ecs-agent/agent/utils"
+	"github.com/as14692/amazon-ecs-agent/agent/utils"
 
 	"github.com/cihub/seelog"
 	"golang.org/x/sys/windows/registry"

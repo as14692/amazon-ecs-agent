@@ -19,7 +19,7 @@ package config
 import (
 	"fmt"
 
-	"github.com/aws/amazon-ecs-agent/agent/statemanager/dependencies"
+	"github.com/as14692/amazon-ecs-agent/agent/statemanager/dependencies"
 
 	"github.com/cihub/seelog"
 	"github.com/pkg/errors"

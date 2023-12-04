@@ -16,8 +16,8 @@ package sdkclientfactory
 import (
 	"context"
 
-	"github.com/aws/amazon-ecs-agent/agent/dockerclient"
-	"github.com/aws/amazon-ecs-agent/agent/dockerclient/sdkclient"
+	"github.com/as14692/amazon-ecs-agent/agent/dockerclient"
+	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/sdkclient"
 	log "github.com/cihub/seelog"
 	docker "github.com/docker/docker/client"
 	"github.com/pkg/errors"

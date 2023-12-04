@@ -16,7 +16,7 @@ package ecscni
 import (
 	"fmt"
 
-	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
 )
 
 // ENIConfig contains all the information needed to invoke the eni plugin

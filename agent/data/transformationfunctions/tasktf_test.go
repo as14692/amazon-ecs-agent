@@ -19,7 +19,7 @@ package transformationfunctions
 import (
 	"testing"
 
-	"github.com/aws/amazon-ecs-agent/ecs-agent/modeltransformer"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/modeltransformer"
 
 	"github.com/stretchr/testify/assert"
 )

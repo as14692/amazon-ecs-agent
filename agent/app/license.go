@@ -17,8 +17,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/aws/amazon-ecs-agent/agent/sighandlers/exitcodes"
-	"github.com/aws/amazon-ecs-agent/agent/utils"
+	"github.com/as14692/amazon-ecs-agent/agent/sighandlers/exitcodes"
+	"github.com/as14692/amazon-ecs-agent/agent/utils"
 )
 
 // printLicense prints the Agent's license text

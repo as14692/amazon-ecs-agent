@@ -5,15 +5,15 @@ MINIMUM_TEST_COVERAGE = 60.0
 
 # coverprofile.out (see Makefile for how this is generated) will look something like this:
 #
-# github.com/aws/amazon-ecs-agent/agent/wsclient/error.go:66:						Retry						0.0%
-# github.com/aws/amazon-ecs-agent/agent/wsclient/errors.go:23:						Error						0.0%
-# github.com/aws/amazon-ecs-agent/agent/wsclient/errors.go:28:						Retry						0.0%
-# github.com/aws/amazon-ecs-agent/agent/wsclient/errors.go:41:						Retry						0.0%
-# github.com/aws/amazon-ecs-agent/agent/wsclient/errors.go:46:						Error						0.0%
-# github.com/aws/amazon-ecs-agent/agent/wsclient/errors.go:59:						Error						0.0%
-# github.com/aws/amazon-ecs-agent/agent/wsclient/types.go:40:						BuildTypeDecoder				100.0%
-# github.com/aws/amazon-ecs-agent/agent/wsclient/types.go:49:						NewOfType					0.0%
-# github.com/aws/amazon-ecs-agent/agent/wsclient/types.go:57:						GetRecognizedTypes				100.0%
+# github.com/as14692/amazon-ecs-agent/agent/wsclient/error.go:66:						Retry						0.0%
+# github.com/as14692/amazon-ecs-agent/agent/wsclient/errors.go:23:						Error						0.0%
+# github.com/as14692/amazon-ecs-agent/agent/wsclient/errors.go:28:						Retry						0.0%
+# github.com/as14692/amazon-ecs-agent/agent/wsclient/errors.go:41:						Retry						0.0%
+# github.com/as14692/amazon-ecs-agent/agent/wsclient/errors.go:46:						Error						0.0%
+# github.com/as14692/amazon-ecs-agent/agent/wsclient/errors.go:59:						Error						0.0%
+# github.com/as14692/amazon-ecs-agent/agent/wsclient/types.go:40:						BuildTypeDecoder				100.0%
+# github.com/as14692/amazon-ecs-agent/agent/wsclient/types.go:49:						NewOfType					0.0%
+# github.com/as14692/amazon-ecs-agent/agent/wsclient/types.go:57:						GetRecognizedTypes				100.0%
 # total:													(statements)					73.8%
 
 coverfile=sys.argv[1]

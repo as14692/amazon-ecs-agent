@@ -19,13 +19,13 @@ package platform
 import (
 	"context"
 
-	"github.com/aws/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/appmesh"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/ecscni"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/serviceconnect"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/tasknetworkconfig"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/volume"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/appmesh"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/ecscni"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/serviceconnect"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/tasknetworkconfig"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/volume"
 )
 
 type common struct {

@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	resourcestatus "github.com/aws/amazon-ecs-agent/agent/taskresource/status"
+	resourcestatus "github.com/as14692/amazon-ecs-agent/agent/taskresource/status"
 	"github.com/stretchr/testify/assert"
 )
 

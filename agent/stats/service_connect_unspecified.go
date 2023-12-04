@@ -16,8 +16,8 @@
 package stats
 
 import (
-	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/tcs/model/ecstcs"
+	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/tcs/model/ecstcs"
 	"github.com/pkg/errors"
 )
 

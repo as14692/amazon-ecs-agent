@@ -19,11 +19,11 @@ package dependencygraph
 import (
 	"testing"
 
-	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
-	"github.com/aws/amazon-ecs-agent/agent/taskresource"
-	"github.com/aws/amazon-ecs-agent/agent/taskresource/cgroup"
-	resourcestatus "github.com/aws/amazon-ecs-agent/agent/taskresource/status"
-	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
+	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+	"github.com/as14692/amazon-ecs-agent/agent/taskresource"
+	"github.com/as14692/amazon-ecs-agent/agent/taskresource/cgroup"
+	resourcestatus "github.com/as14692/amazon-ecs-agent/agent/taskresource/status"
+	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -19,7 +19,7 @@ package config
 import (
 	"testing"
 
-	ecsagentconfig "github.com/aws/amazon-ecs-agent/ecs-agent/config"
+	ecsagentconfig "github.com/as14692/amazon-ecs-agent/ecs-agent/config"
 	"github.com/stretchr/testify/assert"
 )
 

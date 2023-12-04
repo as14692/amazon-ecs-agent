@@ -27,8 +27,8 @@ import (
 	"github.com/docker/docker/api/types"
 	"github.com/pkg/errors"
 
-	"github.com/aws/amazon-ecs-agent/agent/dockerclient"
-	ni "github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	"github.com/as14692/amazon-ecs-agent/agent/dockerclient"
+	ni "github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
 )
 
 const (

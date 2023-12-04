@@ -13,4 +13,4 @@
 
 package bufiowrapper
 
-//go:generate mockgen -copyright_file=../../../scripts/copyright_file -destination=mocks/bufiowrapper_mocks.go github.com/aws/amazon-ecs-agent/agent/utils/bufiowrapper Bufio,Scanner
+//go:generate mockgen -copyright_file=../../../scripts/copyright_file -destination=mocks/bufiowrapper_mocks.go github.com/as14692/amazon-ecs-agent/agent/utils/bufiowrapper Bufio,Scanner

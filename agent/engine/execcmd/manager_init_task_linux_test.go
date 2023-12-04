@@ -26,8 +26,8 @@ import (
 	"github.com/pborman/uuid"
 	"github.com/stretchr/testify/assert"
 
-	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
-	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
+	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
 )
 
 func TestInitializeContainer(t *testing.T) {

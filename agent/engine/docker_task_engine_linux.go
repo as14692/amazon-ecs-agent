@@ -24,12 +24,12 @@ import (
 
 	"github.com/fsnotify/fsnotify"
 
-	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
-	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
-	"github.com/aws/amazon-ecs-agent/agent/utils"
-	apitaskstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/task/status"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/logger/field"
+	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
+	"github.com/as14692/amazon-ecs-agent/agent/utils"
+	apitaskstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/task/status"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger/field"
 	dockercontainer "github.com/docker/docker/api/types/container"
 )
 

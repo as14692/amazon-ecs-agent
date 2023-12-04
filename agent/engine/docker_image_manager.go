@@ -21,18 +21,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/logger/field"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger/field"
 
 	"github.com/docker/docker/api/types"
 
-	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
-	"github.com/aws/amazon-ecs-agent/agent/config"
-	"github.com/aws/amazon-ecs-agent/agent/data"
-	"github.com/aws/amazon-ecs-agent/agent/dockerclient"
-	"github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi"
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
-	"github.com/aws/amazon-ecs-agent/agent/engine/image"
+	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+	"github.com/as14692/amazon-ecs-agent/agent/config"
+	"github.com/as14692/amazon-ecs-agent/agent/data"
+	"github.com/as14692/amazon-ecs-agent/agent/dockerclient"
+	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi"
+	"github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
+	"github.com/as14692/amazon-ecs-agent/agent/engine/image"
 )
 
 const (

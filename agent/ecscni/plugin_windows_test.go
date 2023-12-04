@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	ni "github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	ni "github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
 
 	"github.com/golang/mock/gomock"
 	"github.com/pkg/errors"
@@ -34,7 +34,7 @@ import (
 	"github.com/containernetworking/cni/libcni"
 	cniTypesCurrent "github.com/containernetworking/cni/pkg/types/100"
 
-	mock_libcni "github.com/aws/amazon-ecs-agent/agent/ecscni/mocks_libcni"
+	mock_libcni "github.com/as14692/amazon-ecs-agent/agent/ecscni/mocks_libcni"
 )
 
 const (

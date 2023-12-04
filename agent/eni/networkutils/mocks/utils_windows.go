@@ -24,7 +24,7 @@ import (
 	reflect "reflect"
 	time "time"
 
-	networkutils "github.com/aws/amazon-ecs-agent/agent/eni/networkutils"
+	networkutils "github.com/as14692/amazon-ecs-agent/agent/eni/networkutils"
 	gomock "github.com/golang/mock/gomock"
 )
 

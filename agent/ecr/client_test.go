@@ -21,9 +21,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/aws/amazon-ecs-agent/agent/ecr"
-	mock_ecr "github.com/aws/amazon-ecs-agent/agent/ecr/mocks"
-	ecrapi "github.com/aws/amazon-ecs-agent/agent/ecr/model/ecr"
+	"github.com/as14692/amazon-ecs-agent/agent/ecr"
+	mock_ecr "github.com/as14692/amazon-ecs-agent/agent/ecr/mocks"
+	ecrapi "github.com/as14692/amazon-ecs-agent/agent/ecr/model/ecr"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"

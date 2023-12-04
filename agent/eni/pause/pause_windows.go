@@ -20,8 +20,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/aws/amazon-ecs-agent/agent/config"
-	"github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi"
+	"github.com/as14692/amazon-ecs-agent/agent/config"
+	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi"
 	"github.com/docker/docker/api/types"
 )
 

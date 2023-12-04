@@ -21,14 +21,14 @@ import (
 	"sync"
 	"testing"
 
-	mock_session "github.com/aws/amazon-ecs-agent/ecs-agent/acs/session/mocks"
+	mock_session "github.com/as14692/amazon-ecs-agent/ecs-agent/acs/session/mocks"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aws/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/acs/session/testconst"
-	ni "github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/acs/session/testconst"
+	ni "github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
 )
 
 var testAttachTaskENIMessage = &ecsacs.AttachTaskNetworkInterfacesMessage{

@@ -30,8 +30,8 @@ import (
 	cniTypesCurrent "github.com/containernetworking/cni/pkg/types/100"
 	"github.com/pkg/errors"
 
-	"github.com/aws/amazon-ecs-agent/agent/utils"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/utils/retry"
+	"github.com/as14692/amazon-ecs-agent/agent/utils"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/utils/retry"
 )
 
 var (

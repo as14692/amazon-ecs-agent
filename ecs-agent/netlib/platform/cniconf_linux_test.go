@@ -22,9 +22,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/ecscni"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/status"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/ecscni"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/status"
 
 	"github.com/containernetworking/cni/pkg/types"
 	"github.com/stretchr/testify/require"

@@ -14,7 +14,7 @@
 package serviceconnect
 
 import (
-	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
 )
 
 // IngressConfig holds inbound listener details. For each endpoint exposed by a service connect task,

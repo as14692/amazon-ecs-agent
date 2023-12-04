@@ -19,7 +19,7 @@ package config
 import (
 	"testing"
 
-	mock_dependencies "github.com/aws/amazon-ecs-agent/agent/statemanager/dependencies/mocks"
+	mock_dependencies "github.com/as14692/amazon-ecs-agent/agent/statemanager/dependencies/mocks"
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"

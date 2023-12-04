@@ -16,11 +16,11 @@ package tasknetworkconfig
 import (
 	"sync"
 
-	"github.com/aws/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/appmesh"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/serviceconnect"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/status"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/appmesh"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/serviceconnect"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/status"
 )
 
 // NetworkNamespace is model representing each network namespace.

@@ -67,7 +67,7 @@ phases:
       - mkdir -p src/github.com/
       - mv $GITHUBUSERNAME src/github.com/aws
       - export GOPATH=$GOPATH:$(pwd)
-      - cd src/github.com/aws/amazon-ecs-agent
+      - cd src/github.com/as14692/amazon-ecs-agent
 
       # Build agent tar and rpm
       - GO111MODULE=auto

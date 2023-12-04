@@ -19,7 +19,7 @@ package status
 import (
 	"testing"
 
-	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
+	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
 	"github.com/stretchr/testify/assert"
 )
 

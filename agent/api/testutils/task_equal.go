@@ -14,7 +14,7 @@
 package testutils
 
 import (
-	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
+	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
 )
 
 // TasksEqual determines if the lhs and rhs tasks are equal for the definition

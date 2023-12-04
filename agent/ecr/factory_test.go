@@ -19,7 +19,7 @@ package ecr
 import (
 	"testing"
 
-	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
+	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
 	"github.com/stretchr/testify/assert"
 )
 

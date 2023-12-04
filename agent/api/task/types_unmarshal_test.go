@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
-	taskresourcevolume "github.com/aws/amazon-ecs-agent/agent/taskresource/volume"
+	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+	taskresourcevolume "github.com/as14692/amazon-ecs-agent/agent/taskresource/volume"
 )
 
 func TestVolumesFromUnmarshal(t *testing.T) {

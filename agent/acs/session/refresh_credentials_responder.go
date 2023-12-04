@@ -19,10 +19,10 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/pkg/errors"
 
-	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
-	"github.com/aws/amazon-ecs-agent/agent/engine"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/credentials"
+	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
+	"github.com/as14692/amazon-ecs-agent/agent/engine"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/credentials"
 )
 
 var (

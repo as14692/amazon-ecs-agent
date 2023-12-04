@@ -1,4 +1,4 @@
-module github.com/aws/amazon-ecs-agent/ecs-agent
+module github.com/as14692/amazon-ecs-agent/ecs-agent
 
 go 1.19
 

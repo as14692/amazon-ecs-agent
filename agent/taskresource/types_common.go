@@ -14,12 +14,12 @@
 package taskresource
 
 import (
-	asmfactory "github.com/aws/amazon-ecs-agent/agent/asm/factory"
-	fsxfactory "github.com/aws/amazon-ecs-agent/agent/fsx/factory"
-	s3factory "github.com/aws/amazon-ecs-agent/agent/s3/factory"
-	ssmfactory "github.com/aws/amazon-ecs-agent/agent/ssm/factory"
-	"github.com/aws/amazon-ecs-agent/agent/utils/ioutilwrapper"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/credentials"
+	asmfactory "github.com/as14692/amazon-ecs-agent/agent/asm/factory"
+	fsxfactory "github.com/as14692/amazon-ecs-agent/agent/fsx/factory"
+	s3factory "github.com/as14692/amazon-ecs-agent/agent/s3/factory"
+	ssmfactory "github.com/as14692/amazon-ecs-agent/agent/ssm/factory"
+	"github.com/as14692/amazon-ecs-agent/agent/utils/ioutilwrapper"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/credentials"
 )
 
 type ResourceFieldsCommon struct {

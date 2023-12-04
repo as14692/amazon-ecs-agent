@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/aws/amazon-ecs-agent/agent/api"
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
-	v2 "github.com/aws/amazon-ecs-agent/agent/handlers/v2"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/tmds/handlers/utils"
-	tmdsv2 "github.com/aws/amazon-ecs-agent/ecs-agent/tmds/handlers/v2"
+	"github.com/as14692/amazon-ecs-agent/agent/api"
+	"github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
+	v2 "github.com/as14692/amazon-ecs-agent/agent/handlers/v2"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/tmds/handlers/utils"
+	tmdsv2 "github.com/as14692/amazon-ecs-agent/ecs-agent/tmds/handlers/v2"
 	"github.com/cihub/seelog"
 )
 

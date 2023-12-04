@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/aws/amazon-ecs-agent/agent/config"
+	"github.com/as14692/amazon-ecs-agent/agent/config"
 	"github.com/cihub/seelog"
 	cgroupsv2 "github.com/containerd/cgroups/v3/cgroup2"
 )

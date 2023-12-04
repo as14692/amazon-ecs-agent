@@ -21,14 +21,14 @@ import (
 	"testing"
 	"time"
 
-	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
-	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
-	"github.com/aws/amazon-ecs-agent/agent/config"
-	"github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi"
-	ecsengine "github.com/aws/amazon-ecs-agent/agent/engine"
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
-	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
-	apitaskstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/task/status"
+	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
+	"github.com/as14692/amazon-ecs-agent/agent/config"
+	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi"
+	ecsengine "github.com/as14692/amazon-ecs-agent/agent/engine"
+	"github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
+	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
+	apitaskstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/task/status"
 	dockercontainer "github.com/docker/docker/api/types/container"
 
 	"github.com/docker/docker/api/types"
@@ -647,7 +647,7 @@ func testNetworkModeStatsInteg(t *testing.T, networkMode string, statsEmpty bool
 
 	// Inspect the container and populate the container's network mode
 	// This is done as part of Task Engine
-	// https://github.com/aws/amazon-ecs-agent/blob/d2456beb048d36bfe18159ad7f35ca6b78bb9ee9/agent/engine/docker_task_engine.go#L364
+	// https://github.com/as14692/amazon-ecs-agent/blob/d2456beb048d36bfe18159ad7f35ca6b78bb9ee9/agent/engine/docker_task_engine.go#L364
 	dockerContainer, err := client.ContainerInspect(ctx, container.ID)
 	require.NoError(t, err, "inspecting container failed")
 	netMode := string(dockerContainer.HostConfig.NetworkMode)

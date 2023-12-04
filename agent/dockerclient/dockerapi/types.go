@@ -17,9 +17,9 @@ import (
 	"fmt"
 	"time"
 
-	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
-	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
-	apierrors "github.com/aws/amazon-ecs-agent/ecs-agent/api/errors"
+	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
+	apierrors "github.com/as14692/amazon-ecs-agent/ecs-agent/api/errors"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/volume"

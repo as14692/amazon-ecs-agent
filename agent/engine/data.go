@@ -14,13 +14,13 @@
 package engine
 
 import (
-	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
-	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
-	"github.com/aws/amazon-ecs-agent/agent/data"
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
-	"github.com/aws/amazon-ecs-agent/agent/engine/image"
-	"github.com/aws/amazon-ecs-agent/agent/utils"
-	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
+	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
+	"github.com/as14692/amazon-ecs-agent/agent/data"
+	"github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
+	"github.com/as14692/amazon-ecs-agent/agent/engine/image"
+	"github.com/as14692/amazon-ecs-agent/agent/utils"
+	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
 
 	"github.com/cihub/seelog"
 	"github.com/pkg/errors"

@@ -16,10 +16,10 @@ package session
 import (
 	"strconv"
 
-	"github.com/aws/amazon-ecs-agent/agent/data"
-	"github.com/aws/amazon-ecs-agent/agent/engine"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
-	apitaskstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/task/status"
+	"github.com/as14692/amazon-ecs-agent/agent/data"
+	"github.com/as14692/amazon-ecs-agent/agent/engine"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
+	apitaskstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/task/status"
 	"github.com/aws/aws-sdk-go/aws"
 )
 

@@ -20,7 +20,7 @@ package sysctl
 import (
 	reflect "reflect"
 
-	cmd "github.com/aws/amazon-ecs-agent/ecs-init/cmd"
+	cmd "github.com/as14692/amazon-ecs-agent/ecs-init/cmd"
 	gomock "github.com/golang/mock/gomock"
 )
 

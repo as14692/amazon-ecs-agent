@@ -16,11 +16,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/doctor/statustracker"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/csiclient"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/doctor"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/logger/field"
+	"github.com/as14692/amazon-ecs-agent/agent/doctor/statustracker"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/csiclient"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/doctor"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger/field"
 )
 
 const (

@@ -28,8 +28,8 @@ all: tarfiles/ebs-csi-driver.tar
 
 bin/ebs-csi-driver:
 	CGO_ENABLED=0 go build -ldflags "\
-		-X \"github.com/aws/amazon-ecs-agent/ecs-agent/daemonimages/csidriver/version.version=$(CSI_DRIVER_VERSION)\" \
-		-X \"github.com/aws/amazon-ecs-agent/ecs-agent/daemonimages/csidriver/version.buildDate=$(BUILD_DATE)\"" \
+		-X \"github.com/as14692/amazon-ecs-agent/ecs-agent/daemonimages/csidriver/version.version=$(CSI_DRIVER_VERSION)\" \
+		-X \"github.com/as14692/amazon-ecs-agent/ecs-agent/daemonimages/csidriver/version.buildDate=$(BUILD_DATE)\"" \
 		-o bin/ebs-csi-driver .
 
 image:

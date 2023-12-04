@@ -17,10 +17,10 @@ import (
 	"encoding/json"
 	"time"
 
-	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
-	resourcestatus "github.com/aws/amazon-ecs-agent/agent/taskresource/status"
-	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
-	apitaskstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/task/status"
+	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+	resourcestatus "github.com/as14692/amazon-ecs-agent/agent/taskresource/status"
+	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
+	apitaskstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/task/status"
 )
 
 // TaskResource is a wrapper for task level resource methods we need

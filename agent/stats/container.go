@@ -19,12 +19,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/config"
-	"github.com/aws/amazon-ecs-agent/agent/dockerclient"
-	"github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi"
-	"github.com/aws/amazon-ecs-agent/agent/stats/resolver"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/utils/retry"
+	"github.com/as14692/amazon-ecs-agent/agent/config"
+	"github.com/as14692/amazon-ecs-agent/agent/dockerclient"
+	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi"
+	"github.com/as14692/amazon-ecs-agent/agent/stats/resolver"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/utils/retry"
 	"github.com/cihub/seelog"
 )
 

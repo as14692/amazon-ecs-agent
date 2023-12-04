@@ -16,16 +16,16 @@ package netlib
 import (
 	"context"
 
-	"github.com/aws/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/api/ecs/model/ecs"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/data"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/metrics"
-	netlibdata "github.com/aws/amazon-ecs-agent/ecs-agent/netlib/data"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/status"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/tasknetworkconfig"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/platform"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/volume"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/api/ecs/model/ecs"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/data"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/metrics"
+	netlibdata "github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/data"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/status"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/tasknetworkconfig"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/platform"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/volume"
 
 	"github.com/pkg/errors"
 )

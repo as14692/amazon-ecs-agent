@@ -17,8 +17,8 @@
 package testutils
 
 import (
-	"github.com/aws/amazon-ecs-agent/agent/engine"
-	state_testutil "github.com/aws/amazon-ecs-agent/agent/engine/dockerstate/testutils"
+	"github.com/as14692/amazon-ecs-agent/agent/engine"
+	state_testutil "github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate/testutils"
 )
 
 // DockerTaskEnginesEqual determines if the lhs and rhs task engines given are

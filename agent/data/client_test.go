@@ -20,8 +20,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	generaldata "github.com/aws/amazon-ecs-agent/ecs-agent/data"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/modeltransformer"
+	generaldata "github.com/as14692/amazon-ecs-agent/ecs-agent/data"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/modeltransformer"
 
 	"github.com/stretchr/testify/require"
 	bolt "go.etcd.io/bbolt"

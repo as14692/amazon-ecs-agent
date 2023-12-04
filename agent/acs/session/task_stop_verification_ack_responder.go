@@ -14,10 +14,10 @@
 package session
 
 import (
-	"github.com/aws/amazon-ecs-agent/agent/engine"
-	apitaskstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/task/status"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
-	loggerfield "github.com/aws/amazon-ecs-agent/ecs-agent/logger/field"
+	"github.com/as14692/amazon-ecs-agent/agent/engine"
+	apitaskstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/task/status"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
+	loggerfield "github.com/as14692/amazon-ecs-agent/ecs-agent/logger/field"
 )
 
 // taskStopper implements the TaskStopper interface defined in ecs-agent module.

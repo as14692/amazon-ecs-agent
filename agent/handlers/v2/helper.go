@@ -17,7 +17,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
+	"github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
 	"github.com/pkg/errors"
 )
 

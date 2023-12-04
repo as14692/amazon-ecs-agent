@@ -23,7 +23,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/aws/amazon-ecs-agent/ecs-init/config"
+	"github.com/as14692/amazon-ecs-agent/ecs-init/config"
 
 	"github.com/aws/aws-sdk-go/aws/ec2metadata"
 	"github.com/aws/aws-sdk-go/aws/session"

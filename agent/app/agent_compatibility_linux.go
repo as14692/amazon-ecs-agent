@@ -17,8 +17,8 @@
 package app
 
 import (
-	"github.com/aws/amazon-ecs-agent/agent/config"
-	"github.com/aws/amazon-ecs-agent/agent/engine"
+	"github.com/as14692/amazon-ecs-agent/agent/config"
+	"github.com/as14692/amazon-ecs-agent/agent/engine"
 
 	"github.com/cihub/seelog"
 	"github.com/pkg/errors"

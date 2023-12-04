@@ -20,10 +20,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/logger/field"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger/field"
 
-	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
+	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
 )
 
 type Image struct {

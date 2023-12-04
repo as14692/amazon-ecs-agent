@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/aws/amazon-ecs-agent/agent/api"
-	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
-	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
-	"github.com/aws/amazon-ecs-agent/agent/config"
-	"github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi"
-	"github.com/aws/amazon-ecs-agent/agent/utils/loader"
+	"github.com/as14692/amazon-ecs-agent/agent/api"
+	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
+	"github.com/as14692/amazon-ecs-agent/agent/config"
+	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi"
+	"github.com/as14692/amazon-ecs-agent/agent/utils/loader"
 
 	"github.com/docker/docker/api/types"
 	dockercontainer "github.com/docker/docker/api/types/container"

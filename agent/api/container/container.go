@@ -22,12 +22,12 @@ import (
 	"sync"
 	"time"
 
-	resourcestatus "github.com/aws/amazon-ecs-agent/agent/taskresource/status"
-	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
-	apierrors "github.com/aws/amazon-ecs-agent/ecs-agent/api/errors"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/credentials"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/logger/field"
+	resourcestatus "github.com/as14692/amazon-ecs-agent/agent/taskresource/status"
+	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
+	apierrors "github.com/as14692/amazon-ecs-agent/ecs-agent/api/errors"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/credentials"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger/field"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/cihub/seelog"

@@ -26,7 +26,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aws/amazon-ecs-agent/ecs-init/config"
+	"github.com/as14692/amazon-ecs-agent/ecs-init/config"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 )

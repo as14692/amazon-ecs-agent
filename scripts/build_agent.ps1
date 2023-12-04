@@ -19,7 +19,7 @@ $pauseImageName = "amazon/amazon-ecs-pause"
 $pauseImageTag = "0.1.0"
 
 $build_exe = "../amazon-ecs-agent.exe"
-$ldflag = "-X github.com/aws/amazon-ecs-agent/agent/config.DefaultPauseContainerTag=$pauseImageTag -X github.com/aws/amazon-ecs-agent/agent/config.DefaultPauseContainerImageName=$pauseImageName"
+$ldflag = "-X github.com/as14692/amazon-ecs-agent/agent/config.DefaultPauseContainerTag=$pauseImageTag -X github.com/as14692/amazon-ecs-agent/agent/config.DefaultPauseContainerImageName=$pauseImageName"
 
 cd ../agent/
 go build -ldflags "$ldflag" -o $build_exe .

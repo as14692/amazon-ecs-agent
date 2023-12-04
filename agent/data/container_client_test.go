@@ -17,8 +17,8 @@
 package data
 
 import (
-	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
-	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
+	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
 
 	"testing"
 

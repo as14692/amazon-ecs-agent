@@ -16,11 +16,11 @@ package task
 import (
 	"fmt"
 
-	"github.com/aws/amazon-ecs-agent/agent/api/serviceconnect"
-	taskresourcevolume "github.com/aws/amazon-ecs-agent/agent/taskresource/volume"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
-	apiresource "github.com/aws/amazon-ecs-agent/ecs-agent/api/attachment/resource"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
+	"github.com/as14692/amazon-ecs-agent/agent/api/serviceconnect"
+	taskresourcevolume "github.com/as14692/amazon-ecs-agent/agent/taskresource/volume"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
+	apiresource "github.com/as14692/amazon-ecs-agent/ecs-agent/api/attachment/resource"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
 	"github.com/aws/aws-sdk-go/aws"
 )
 

@@ -25,16 +25,16 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/aws/amazon-ecs-agent/agent/eni/netwrapper"
-	apierrors "github.com/aws/amazon-ecs-agent/ecs-agent/api/errors"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/utils/retry"
+	"github.com/as14692/amazon-ecs-agent/agent/eni/netwrapper"
+	apierrors "github.com/as14692/amazon-ecs-agent/ecs-agent/api/errors"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/utils/retry"
 
 	"github.com/cihub/seelog"
 	"github.com/pkg/errors"
 	"golang.org/x/sys/windows"
 )
 
-//go:generate mockgen -destination=mocks/$GOFILE -copyright_file=../../../scripts/copyright_file github.com/aws/amazon-ecs-agent/agent/eni/networkutils NetworkUtils
+//go:generate mockgen -destination=mocks/$GOFILE -copyright_file=../../../scripts/copyright_file github.com/as14692/amazon-ecs-agent/agent/eni/networkutils NetworkUtils
 
 // NetworkUtils is the interface used for accessing network related functionality on Windows.
 // The methods declared in this package may or may not add any additional logic over the actual networking api calls.

@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"time"
 
-	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
-	tmdsresponse "github.com/aws/amazon-ecs-agent/ecs-agent/tmds/handlers/response"
+	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+	tmdsresponse "github.com/as14692/amazon-ecs-agent/ecs-agent/tmds/handlers/response"
 	"github.com/docker/docker/api/types"
 )
 

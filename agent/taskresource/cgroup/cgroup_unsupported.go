@@ -20,11 +20,11 @@ import (
 	"errors"
 	"time"
 
-	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
-	"github.com/aws/amazon-ecs-agent/agent/taskresource"
-	resourcestatus "github.com/aws/amazon-ecs-agent/agent/taskresource/status"
-	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/api/task/status"
+	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+	"github.com/as14692/amazon-ecs-agent/agent/taskresource"
+	resourcestatus "github.com/as14692/amazon-ecs-agent/agent/taskresource/status"
+	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/api/task/status"
 )
 
 // CgroupResource represents Cgroup resource

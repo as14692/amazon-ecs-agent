@@ -18,7 +18,7 @@ import (
 
 	cniTypes "github.com/containernetworking/cni/pkg/types"
 
-	"github.com/aws/amazon-ecs-agent/agent/dockerclient"
+	"github.com/as14692/amazon-ecs-agent/agent/dockerclient"
 )
 
 // ImagePullBehaviorType is an enum variable type corresponding to different agent pull
@@ -73,7 +73,7 @@ type Config struct {
 	Checkpoint BooleanDefaultFalse
 
 	// EngineAuthType configures what type of data is in EngineAuthData.
-	// Supported types, right now, can be found in the dockerauth package: https://godoc.org/github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerauth
+	// Supported types, right now, can be found in the dockerauth package: https://godoc.org/github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerauth
 	EngineAuthType string `trim:"true"`
 	// EngineAuthData contains authentication data. Please see the documentation
 	// for EngineAuthType for more information.
@@ -359,7 +359,7 @@ type Config struct {
 
 	// ShouldExcludeIPv6PortBinding specifies whether agent should exclude IPv6 port bindings reported from docker. This configuration
 	// is set to true by default, and can be overridden by the ECS_EXCLUDE_IPV6_PORTBINDING environment variable. This is a workaround
-	// for docker's bug as detailed in https://github.com/aws/amazon-ecs-agent/issues/2870.
+	// for docker's bug as detailed in https://github.com/as14692/amazon-ecs-agent/issues/2870.
 	ShouldExcludeIPv6PortBinding BooleanDefaultTrue
 
 	// WarmPoolsSupport specifies whether the agent should poll IMDS to check the target lifecycle state for a starting

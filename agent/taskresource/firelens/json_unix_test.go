@@ -24,7 +24,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	resourcestatus "github.com/aws/amazon-ecs-agent/agent/taskresource/status"
+	resourcestatus "github.com/as14692/amazon-ecs-agent/agent/taskresource/status"
 )
 
 func TestMarshalUnmarshalJSON(t *testing.T) {

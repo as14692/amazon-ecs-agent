@@ -21,8 +21,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/aws/amazon-ecs-agent/agent/statemanager/dependencies"
-	"github.com/aws/amazon-ecs-agent/agent/utils/oswrapper"
+	"github.com/as14692/amazon-ecs-agent/agent/statemanager/dependencies"
+	"github.com/as14692/amazon-ecs-agent/agent/utils/oswrapper"
 	"github.com/cihub/seelog"
 
 	"golang.org/x/sys/windows/registry"

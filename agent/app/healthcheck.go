@@ -17,7 +17,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/sighandlers/exitcodes"
+	"github.com/as14692/amazon-ecs-agent/agent/sighandlers/exitcodes"
 	"github.com/cihub/seelog"
 )
 

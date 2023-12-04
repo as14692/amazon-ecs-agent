@@ -13,14 +13,14 @@
 package taskprotection
 
 import (
-	"github.com/aws/amazon-ecs-agent/agent/api/ecsclient"
-	"github.com/aws/amazon-ecs-agent/agent/config"
-	"github.com/aws/amazon-ecs-agent/agent/version"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/httpclient"
+	"github.com/as14692/amazon-ecs-agent/agent/api/ecsclient"
+	"github.com/as14692/amazon-ecs-agent/agent/config"
+	"github.com/as14692/amazon-ecs-agent/agent/version"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/httpclient"
 
-	ecsapi "github.com/aws/amazon-ecs-agent/ecs-agent/api/ecs"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/api/ecs/model/ecs"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/credentials"
+	ecsapi "github.com/as14692/amazon-ecs-agent/ecs-agent/api/ecs"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/api/ecs/model/ecs"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/credentials"
 
 	"github.com/aws/aws-sdk-go/aws"
 	awscreds "github.com/aws/aws-sdk-go/aws/credentials"

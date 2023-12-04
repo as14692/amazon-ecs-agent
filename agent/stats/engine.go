@@ -13,7 +13,7 @@
 
 package stats
 
-//go:generate mockgen -destination=mock/$GOFILE -copyright_file=../../scripts/copyright_file github.com/aws/amazon-ecs-agent/agent/stats Engine
+//go:generate mockgen -destination=mock/$GOFILE -copyright_file=../../scripts/copyright_file github.com/as14692/amazon-ecs-agent/agent/stats Engine
 
 import (
 	"context"
@@ -22,25 +22,25 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/logger/field"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger/field"
 
 	"github.com/cihub/seelog"
 	"github.com/pborman/uuid"
 	"github.com/pkg/errors"
 
-	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
-	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
-	"github.com/aws/amazon-ecs-agent/agent/config"
-	"github.com/aws/amazon-ecs-agent/agent/dockerclient"
-	"github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi"
-	ecsengine "github.com/aws/amazon-ecs-agent/agent/engine"
-	"github.com/aws/amazon-ecs-agent/agent/stats/resolver"
-	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/csiclient"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/eventstream"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/stats"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/tcs/model/ecstcs"
+	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
+	"github.com/as14692/amazon-ecs-agent/agent/config"
+	"github.com/as14692/amazon-ecs-agent/agent/dockerclient"
+	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi"
+	ecsengine "github.com/as14692/amazon-ecs-agent/agent/engine"
+	"github.com/as14692/amazon-ecs-agent/agent/stats/resolver"
+	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/csiclient"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/eventstream"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/stats"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/tcs/model/ecstcs"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/docker/docker/api/types"
 )

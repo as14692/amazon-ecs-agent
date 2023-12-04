@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/aws/amazon-ecs-agent/agent/config"
+	"github.com/as14692/amazon-ecs-agent/agent/config"
 	dockercontainer "github.com/docker/docker/api/types/container"
 )
 

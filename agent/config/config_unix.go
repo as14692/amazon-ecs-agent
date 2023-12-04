@@ -21,9 +21,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/dockerclient"
-	"github.com/aws/amazon-ecs-agent/agent/utils"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/tmds"
+	"github.com/as14692/amazon-ecs-agent/agent/dockerclient"
+	"github.com/as14692/amazon-ecs-agent/agent/utils"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/tmds"
 )
 
 const (

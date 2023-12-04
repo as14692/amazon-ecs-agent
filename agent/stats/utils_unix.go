@@ -19,7 +19,7 @@ package stats
 import (
 	"fmt"
 
-	"github.com/aws/amazon-ecs-agent/agent/config"
+	"github.com/as14692/amazon-ecs-agent/agent/config"
 	"github.com/cihub/seelog"
 	"github.com/docker/docker/api/types"
 )
@@ -44,7 +44,7 @@ func getMemUsage(mem types.MemoryStats) uint64 {
 	if config.CgroupV2 {
 		// for cgroupv2 systems, mem usage calculation uses the same method that the docker cli uses
 		// https://github.com/docker/cli/blob/e198123693b1aaa724041fff602c7d75c8fe4b57/cli/command/container/stats_helpers.go#L227-L249
-		// see https://github.com/aws/amazon-ecs-agent/issues/3323
+		// see https://github.com/as14692/amazon-ecs-agent/issues/3323
 		if v, ok := mem.Stats["inactive_file"]; ok && v < mem.Usage {
 			return mem.Usage - v
 		}

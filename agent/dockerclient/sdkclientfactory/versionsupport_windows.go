@@ -17,8 +17,8 @@
 package sdkclientfactory
 
 import (
-	"github.com/aws/amazon-ecs-agent/agent/dockerclient"
-	"github.com/aws/amazon-ecs-agent/agent/dockerclient/sdkclient"
+	"github.com/as14692/amazon-ecs-agent/agent/dockerclient"
+	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/sdkclient"
 )
 
 // minDockerAPIVersion is the min Docker API version supported by agent

@@ -18,8 +18,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/doctor"
+	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/doctor"
 	"github.com/cihub/seelog"
 )
 

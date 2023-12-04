@@ -16,7 +16,7 @@ package ecscni
 import (
 	"fmt"
 
-	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/serviceconnect"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/serviceconnect"
 )
 
 const redirectModeNat string = "nat"

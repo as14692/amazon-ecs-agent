@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/api/task"
-	"github.com/aws/amazon-ecs-agent/agent/ecscni"
-	"github.com/aws/amazon-ecs-agent/agent/eni/netlinkwrapper"
-	"github.com/aws/amazon-ecs-agent/agent/stats/resolver"
-	"github.com/aws/amazon-ecs-agent/agent/utils/nswrapper"
+	"github.com/as14692/amazon-ecs-agent/agent/api/task"
+	"github.com/as14692/amazon-ecs-agent/agent/ecscni"
+	"github.com/as14692/amazon-ecs-agent/agent/eni/netlinkwrapper"
+	"github.com/as14692/amazon-ecs-agent/agent/stats/resolver"
+	"github.com/as14692/amazon-ecs-agent/agent/utils/nswrapper"
 
 	"github.com/containernetworking/plugins/pkg/ns"
 	dockerstats "github.com/docker/docker/api/types"

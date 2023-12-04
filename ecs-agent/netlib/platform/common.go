@@ -17,7 +17,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/ecscni"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/ecscni"
 
 	"github.com/containernetworking/cni/pkg/types"
 )

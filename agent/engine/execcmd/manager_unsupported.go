@@ -18,9 +18,9 @@ package execcmd
 import (
 	"context"
 
-	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
-	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
-	"github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi"
+	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
+	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi"
 	dockercontainer "github.com/docker/docker/api/types/container"
 )
 

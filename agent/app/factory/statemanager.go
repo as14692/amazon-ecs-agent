@@ -14,8 +14,8 @@
 package factory
 
 import (
-	"github.com/aws/amazon-ecs-agent/agent/config"
-	"github.com/aws/amazon-ecs-agent/agent/statemanager"
+	"github.com/as14692/amazon-ecs-agent/agent/config"
+	"github.com/as14692/amazon-ecs-agent/agent/statemanager"
 )
 
 // StateManager factory wraps the global statemenager.NewStateManager method,

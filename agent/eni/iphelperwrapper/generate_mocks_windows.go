@@ -13,4 +13,4 @@
 
 package iphelperwrapper
 
-//go:generate mockgen -destination=mocks/mock_iphelper_windows.go -copyright_file=../../../scripts/copyright_file github.com/aws/amazon-ecs-agent/agent/eni/iphelperwrapper InterfaceMonitor
+//go:generate mockgen -destination=mocks/mock_iphelper_windows.go -copyright_file=../../../scripts/copyright_file github.com/as14692/amazon-ecs-agent/agent/eni/iphelperwrapper InterfaceMonitor

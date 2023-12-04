@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"strings"
 
-	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
+	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
 	"github.com/golang/mock/gomock"
 )
 

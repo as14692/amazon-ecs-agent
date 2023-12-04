@@ -22,8 +22,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/dockerclient"
-	"github.com/aws/amazon-ecs-agent/agent/utils"
+	"github.com/as14692/amazon-ecs-agent/agent/dockerclient"
+	"github.com/as14692/amazon-ecs-agent/agent/utils"
 
 	"github.com/cihub/seelog"
 	cniTypes "github.com/containernetworking/cni/pkg/types"

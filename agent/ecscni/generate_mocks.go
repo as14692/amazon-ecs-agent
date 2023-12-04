@@ -13,7 +13,7 @@
 
 package ecscni
 
-//go:generate mockgen -destination=mocks/ecscni_mocks.go -copyright_file=../../scripts/copyright_file github.com/aws/amazon-ecs-agent/agent/ecscni CNIClient
-//go:generate mockgen -destination=mocks/namespace_helper_mocks.go -copyright_file=../../scripts/copyright_file github.com/aws/amazon-ecs-agent/agent/ecscni NamespaceHelper
+//go:generate mockgen -destination=mocks/ecscni_mocks.go -copyright_file=../../scripts/copyright_file github.com/as14692/amazon-ecs-agent/agent/ecscni CNIClient
+//go:generate mockgen -destination=mocks/namespace_helper_mocks.go -copyright_file=../../scripts/copyright_file github.com/as14692/amazon-ecs-agent/agent/ecscni NamespaceHelper
 //go:generate mockgen -destination=mocks_libcni/libcni_mocks.go -copyright_file=../../scripts/copyright_file github.com/containernetworking/cni/libcni CNI
 //go:generate mockgen -destination=mocks_cnitypes/result_mocks.go -copyright_file=../../scripts/copyright_file github.com/containernetworking/cni/pkg/types Result

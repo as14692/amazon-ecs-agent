@@ -16,8 +16,8 @@ package data
 import (
 	"encoding/json"
 
-	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
-	"github.com/aws/amazon-ecs-agent/agent/utils"
+	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+	"github.com/as14692/amazon-ecs-agent/agent/utils"
 
 	"github.com/pkg/errors"
 	bolt "go.etcd.io/bbolt"

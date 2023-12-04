@@ -16,7 +16,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/ecs-agent/doctor"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/doctor"
 )
 
 // Helper for keeping track of current and last health check status.

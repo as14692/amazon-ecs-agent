@@ -13,7 +13,7 @@
 
 package utils
 
-import "github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
+import "github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
 
 // DockerStateResolver is a sub-interface for the engine.TaskEngine interface
 // to make it easy to test code in this package

@@ -30,12 +30,12 @@ EOW
 # Fresh clone to ensure our build doesn't rely on anything outside of vcs
 # The config values 'user.name' and 'user.email' are used to make git-clone
 # happy when running in a container as a non-root user.
-git clone -c user.name="cleanbuild" -c user.email="cleanbuild" /src/amazon-ecs-agent /go/src/github.com/aws/amazon-ecs-agent
+git clone -c user.name="cleanbuild" -c user.email="cleanbuild" /src/amazon-ecs-agent /go/src/github.com/as14692/amazon-ecs-agent
 
 # Allows the build to be marked as 'clean' so we can distinguish a properly
 # created build.
 export ECS_RELEASE="cleanbuild"
 
-cd /go/src/github.com/aws/amazon-ecs-agent
+cd /go/src/github.com/as14692/amazon-ecs-agent
 
 exec ./scripts/build true /out

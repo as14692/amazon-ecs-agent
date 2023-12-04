@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	resourcestatus "github.com/aws/amazon-ecs-agent/agent/taskresource/status"
-	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
+	resourcestatus "github.com/as14692/amazon-ecs-agent/agent/taskresource/status"
+	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
 
-	"github.com/aws/amazon-ecs-agent/agent/utils"
+	"github.com/as14692/amazon-ecs-agent/agent/utils"
 	dockercontainer "github.com/docker/docker/api/types/container"
 	"github.com/stretchr/testify/assert"
 )

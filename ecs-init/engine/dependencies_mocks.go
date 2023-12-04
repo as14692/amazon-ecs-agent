@@ -21,7 +21,7 @@ import (
 	io "io"
 	reflect "reflect"
 
-	cache "github.com/aws/amazon-ecs-agent/ecs-init/cache"
+	cache "github.com/as14692/amazon-ecs-agent/ecs-init/cache"
 	gomock "github.com/golang/mock/gomock"
 )
 

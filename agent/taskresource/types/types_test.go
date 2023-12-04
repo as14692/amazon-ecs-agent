@@ -20,11 +20,11 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/aws/amazon-ecs-agent/agent/taskresource"
-	"github.com/aws/amazon-ecs-agent/agent/taskresource/asmsecret"
-	"github.com/aws/amazon-ecs-agent/agent/taskresource/ssmsecret"
-	resourcestatus "github.com/aws/amazon-ecs-agent/agent/taskresource/status"
-	"github.com/aws/amazon-ecs-agent/agent/taskresource/volume"
+	"github.com/as14692/amazon-ecs-agent/agent/taskresource"
+	"github.com/as14692/amazon-ecs-agent/agent/taskresource/asmsecret"
+	"github.com/as14692/amazon-ecs-agent/agent/taskresource/ssmsecret"
+	resourcestatus "github.com/as14692/amazon-ecs-agent/agent/taskresource/status"
+	"github.com/as14692/amazon-ecs-agent/agent/taskresource/volume"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

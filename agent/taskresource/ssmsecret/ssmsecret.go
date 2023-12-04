@@ -22,14 +22,14 @@ import (
 	"github.com/cihub/seelog"
 	"github.com/pkg/errors"
 
-	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
-	"github.com/aws/amazon-ecs-agent/agent/ssm"
-	"github.com/aws/amazon-ecs-agent/agent/ssm/factory"
-	"github.com/aws/amazon-ecs-agent/agent/taskresource"
-	resourcestatus "github.com/aws/amazon-ecs-agent/agent/taskresource/status"
-	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/api/task/status"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/credentials"
+	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+	"github.com/as14692/amazon-ecs-agent/agent/ssm"
+	"github.com/as14692/amazon-ecs-agent/agent/ssm/factory"
+	"github.com/as14692/amazon-ecs-agent/agent/taskresource"
+	resourcestatus "github.com/as14692/amazon-ecs-agent/agent/taskresource/status"
+	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/api/task/status"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/credentials"
 )
 
 const (

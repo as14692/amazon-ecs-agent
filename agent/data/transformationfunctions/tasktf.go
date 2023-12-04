@@ -17,9 +17,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/aws/amazon-ecs-agent/agent/data/models"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/modeltransformer"
+	"github.com/as14692/amazon-ecs-agent/agent/data/models"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/modeltransformer"
 )
 
 // RegisterTaskTransformationFunctions calls all registerTaskTransformationFunctions<x_y_z> in ascending order.

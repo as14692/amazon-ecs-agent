@@ -1,4 +1,4 @@
-module github.com/aws/amazon-ecs-agent/ecs-agent/daemonimages/csidriver
+module github.com/as14692/amazon-ecs-agent/ecs-agent/daemonimages/csidriver
 
 go 1.19
 

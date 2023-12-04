@@ -19,9 +19,9 @@ package session
 import (
 	"testing"
 
-	"github.com/aws/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
-	mock_session "github.com/aws/amazon-ecs-agent/ecs-agent/acs/session/mocks"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/acs/session/testconst"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
+	mock_session "github.com/as14692/amazon-ecs-agent/ecs-agent/acs/session/mocks"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/acs/session/testconst"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"

@@ -14,9 +14,9 @@
 package v4
 
 import (
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
-	tmdsresponse "github.com/aws/amazon-ecs-agent/ecs-agent/tmds/handlers/response"
-	tmdsv4 "github.com/aws/amazon-ecs-agent/ecs-agent/tmds/handlers/v4/state"
+	"github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
+	tmdsresponse "github.com/as14692/amazon-ecs-agent/ecs-agent/tmds/handlers/response"
+	tmdsv4 "github.com/as14692/amazon-ecs-agent/ecs-agent/tmds/handlers/v4/state"
 
 	"github.com/pkg/errors"
 )
@@ -28,7 +28,7 @@ func GetContainerNetworkMetadata(containerID string, state dockerstate.TaskEngin
 		return nil, errors.Errorf("unable to find container '%s'", containerID)
 	}
 	// the logic here has been reused from
-	// https://github.com/aws/amazon-ecs-agent/blob/0c8913ba33965cf6ffdd6253fad422458d9346bd/agent/containermetadata/parse_metadata.go#L123
+	// https://github.com/as14692/amazon-ecs-agent/blob/0c8913ba33965cf6ffdd6253fad422458d9346bd/agent/containermetadata/parse_metadata.go#L123
 	settings := dockerContainer.Container.GetNetworkSettings()
 	if settings == nil {
 		return nil, errors.Errorf("unable to generate network response for container '%s'", containerID)

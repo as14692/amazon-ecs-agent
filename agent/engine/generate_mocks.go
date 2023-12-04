@@ -13,4 +13,4 @@
 
 package engine
 
-//go:generate mockgen -destination=mocks/engine_mocks.go -copyright_file=../../scripts/copyright_file github.com/aws/amazon-ecs-agent/agent/engine TaskEngine,ImageManager
+//go:generate mockgen -destination=mocks/engine_mocks.go -copyright_file=../../scripts/copyright_file github.com/as14692/amazon-ecs-agent/agent/engine TaskEngine,ImageManager

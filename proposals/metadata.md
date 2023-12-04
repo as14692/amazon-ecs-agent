@@ -14,7 +14,7 @@ permissions and limitations under the License.
 -->
 
 ### Container metadata feature
-In order to solve the issues related to container metadata like: [#288](https://github.com/aws/amazon-ecs-agent/issues/288) and [#456](https://github.com/aws/amazon-ecs-agent/issues/456), we are considering adding a new feature "Container Metadata" similar to [EC2 Instance Metadata Service](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) in ECS agent to provide the container metadata.
+In order to solve the issues related to container metadata like: [#288](https://github.com/as14692/amazon-ecs-agent/issues/288) and [#456](https://github.com/as14692/amazon-ecs-agent/issues/456), we are considering adding a new feature "Container Metadata" similar to [EC2 Instance Metadata Service](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) in ECS agent to provide the container metadata.
 
 By adding this feature, you can query the information about the task, container and container instance from within the container or from the container instance by reading the metadata file for each container. The following information will be available from this feature:
  * Information from Docker:

@@ -11,11 +11,11 @@ jobs:
       - uses: actions/checkout@v3
         with:
           submodules: true
-          path: src/github.com/aws/amazon-ecs-agent
+          path: src/github.com/as14692/amazon-ecs-agent
       - name: get GO_VERSION
         id: get-go-version
         run: |
-          cd $GITHUB_WORKSPACE/src/github.com/aws/amazon-ecs-agent
+          cd $GITHUB_WORKSPACE/src/github.com/as14692/amazon-ecs-agent
           set -eou pipefail
           go_version=$(cat -e GO_VERSION)
           go_version=${go_version%?}
@@ -31,21 +31,21 @@ jobs:
           go-version: ${{ steps.get-go-version.outputs.GO_VERSION }}
       - name: Run go mod tidy and go mod vendor in ecs-agent module
         run: |
-          cd $GITHUB_WORKSPACE/src/github.com/aws/amazon-ecs-agent/ecs-agent
+          cd $GITHUB_WORKSPACE/src/github.com/as14692/amazon-ecs-agent/ecs-agent
           go mod tidy
           git diff --exit-code go.mod go.sum
           go mod vendor
           git diff --exit-code vendor/
       - name: Run go mod tidy and go mod vendor in agent module
         run: |
-          cd $GITHUB_WORKSPACE/src/github.com/aws/amazon-ecs-agent/agent
+          cd $GITHUB_WORKSPACE/src/github.com/as14692/amazon-ecs-agent/agent
           go mod tidy
           git diff --exit-code go.mod go.sum
           go mod vendor
           git diff --exit-code vendor/
       - name: Run go mod tidy and go mod vendor in ecs-init module
         run: |
-          cd $GITHUB_WORKSPACE/src/github.com/aws/amazon-ecs-agent/ecs-init
+          cd $GITHUB_WORKSPACE/src/github.com/as14692/amazon-ecs-agent/ecs-init
           go mod tidy
           git diff --exit-code go.mod go.sum
           go mod vendor

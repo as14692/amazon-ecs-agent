@@ -22,12 +22,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aws/amazon-ecs-agent/agent/utils/oswrapper"
-	mock_oswrapper "github.com/aws/amazon-ecs-agent/agent/utils/oswrapper/mocks"
+	"github.com/as14692/amazon-ecs-agent/agent/utils/oswrapper"
+	mock_oswrapper "github.com/as14692/amazon-ecs-agent/agent/utils/oswrapper/mocks"
 
-	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
-	mock_containermetadata "github.com/aws/amazon-ecs-agent/agent/containermetadata/mocks"
-	"github.com/aws/amazon-ecs-agent/agent/dockerclient"
+	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
+	mock_containermetadata "github.com/as14692/amazon-ecs-agent/agent/containermetadata/mocks"
+	"github.com/as14692/amazon-ecs-agent/agent/dockerclient"
 	"github.com/docker/docker/api/types"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"

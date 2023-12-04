@@ -21,7 +21,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/aws/amazon-ecs-agent/agent/utils/oswrapper"
+	"github.com/as14692/amazon-ecs-agent/agent/utils/oswrapper"
 
 	"github.com/pborman/uuid"
 )

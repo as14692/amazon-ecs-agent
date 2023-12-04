@@ -18,11 +18,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/ecs-agent/api/attachment"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/logger/field"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/utils/arn"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/utils/ttime"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/api/attachment"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger/field"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/utils/arn"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/utils/ttime"
 
 	"github.com/pkg/errors"
 )

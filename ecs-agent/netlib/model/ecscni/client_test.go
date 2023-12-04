@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	mock_libcni "github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/ecscni/mocks_libcni"
+	mock_libcni "github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/ecscni/mocks_libcni"
 
 	"github.com/containernetworking/cni/pkg/types"
 	"github.com/golang/mock/gomock"

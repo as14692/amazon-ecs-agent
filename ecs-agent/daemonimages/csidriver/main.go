@@ -25,8 +25,8 @@ import (
 
 	"k8s.io/klog/v2"
 
-	"github.com/aws/amazon-ecs-agent/ecs-agent/daemonimages/csidriver/driver"
-	"github.com/aws/amazon-ecs-agent/ecs-agent/daemonimages/csidriver/health"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/daemonimages/csidriver/driver"
+	"github.com/as14692/amazon-ecs-agent/ecs-agent/daemonimages/csidriver/health"
 )
 
 func main() {

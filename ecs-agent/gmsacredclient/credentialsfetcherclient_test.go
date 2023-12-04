@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	pb "github.com/aws/amazon-ecs-agent/ecs-agent/gmsacredclient/credentialsfetcher"
+	pb "github.com/as14692/amazon-ecs-agent/ecs-agent/gmsacredclient/credentialsfetcher"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
