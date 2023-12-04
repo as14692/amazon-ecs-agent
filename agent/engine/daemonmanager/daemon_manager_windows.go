@@ -20,8 +20,8 @@ import (
 	"context"
 	"errors"
 
-	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
-	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi"
+	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
+	"github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi"
 	"github.com/docker/docker/api/types"
 )
 

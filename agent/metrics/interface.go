@@ -16,7 +16,7 @@ package metrics
 import (
 	"time"
 
-	"github.com/as14692/amazon-ecs-agent/agent/config"
+	"github.com/aws/amazon-ecs-agent/agent/config"
 )
 
 // MetricsClient defines the behavior for any Client that uses the

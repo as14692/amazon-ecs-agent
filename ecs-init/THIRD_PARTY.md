@@ -1,5 +1,5 @@
 
-## github.com/NVIDIA/gpu-monitoring-tools/bindings/go/nvml ([BSD-3-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/NVIDIA/gpu-monitoring-tools/LICENSE))
+## github.com/NVIDIA/gpu-monitoring-tools/bindings/go/nvml ([BSD-3-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/NVIDIA/gpu-monitoring-tools/LICENSE))
 
 ```BSD 3-Clause License
 
@@ -31,7 +31,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-## github.com/aws/aws-sdk-go ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/aws/aws-sdk-go/LICENSE.txt))
+## github.com/aws/aws-sdk-go ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/aws/aws-sdk-go/LICENSE.txt))
 
 ```
                                  Apache License
@@ -236,7 +236,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/aws/aws-sdk-go/internal/sync/singleflight ([BSD-3-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/aws/aws-sdk-go/internal/sync/singleflight/LICENSE))
+## github.com/aws/aws-sdk-go/internal/sync/singleflight ([BSD-3-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/aws/aws-sdk-go/internal/sync/singleflight/LICENSE))
 
 ```Copyright (c) 2009 The Go Authors. All rights reserved.
 
@@ -266,7 +266,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-## github.com/cihub/seelog ([BSD-3-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/cihub/seelog/LICENSE.txt))
+## github.com/cihub/seelog ([BSD-3-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/cihub/seelog/LICENSE.txt))
 
 ```Copyright (c) 2012, Cloud Instruments Co., Ltd. <info@cin.io>
 All rights reserved.
@@ -293,7 +293,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-## github.com/containerd/containerd/pkg/userns ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/containerd/containerd/LICENSE))
+## github.com/containerd/containerd/pkg/userns ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/containerd/containerd/LICENSE))
 
 ```
                                  Apache License
@@ -487,7 +487,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/docker/docker ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/docker/docker/LICENSE))
+## github.com/docker/docker ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/docker/docker/LICENSE))
 
 ```
                                  Apache License
@@ -681,7 +681,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/docker/go-connections/nat ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/docker/go-connections/LICENSE))
+## github.com/docker/go-connections/nat ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/docker/go-connections/LICENSE))
 
 ```
                                  Apache License
@@ -875,7 +875,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/docker/go-units ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/docker/go-units/LICENSE))
+## github.com/docker/go-units ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/docker/go-units/LICENSE))
 
 ```
                                  Apache License
@@ -1069,7 +1069,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/fsouza/go-dockerclient ([BSD-2-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/fsouza/go-dockerclient/LICENSE))
+## github.com/fsouza/go-dockerclient ([BSD-2-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/fsouza/go-dockerclient/LICENSE))
 
 ```Copyright (c) 2013-2017, go-dockerclient authors
 All rights reserved.
@@ -1094,7 +1094,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-## github.com/gogo/protobuf/proto ([BSD-3-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/gogo/protobuf/LICENSE))
+## github.com/gogo/protobuf/proto ([BSD-3-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/gogo/protobuf/LICENSE))
 
 ```Copyright (c) 2013, The GoGo Authors. All rights reserved.
 
@@ -1132,7 +1132,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ```
-## github.com/golang/mock/gomock ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/golang/mock/LICENSE))
+## github.com/golang/mock/gomock ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/golang/mock/LICENSE))
 
 ```
                                  Apache License
@@ -1337,7 +1337,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/jmespath/go-jmespath ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/jmespath/go-jmespath/LICENSE))
+## github.com/jmespath/go-jmespath ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/jmespath/go-jmespath/LICENSE))
 
 ```Copyright 2015 James Saryerwinnie
 
@@ -1353,7 +1353,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
-## github.com/klauspost/compress ([BSD-3-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/klauspost/compress/LICENSE))
+## github.com/klauspost/compress ([BSD-3-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/klauspost/compress/LICENSE))
 
 ```Copyright (c) 2012 The Go Authors. All rights reserved.
 Copyright (c) 2019 Klaus Post. All rights reserved.
@@ -1384,7 +1384,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-## github.com/klauspost/compress/snappy ([BSD-3-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/klauspost/compress/snappy/LICENSE))
+## github.com/klauspost/compress/snappy ([BSD-3-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/klauspost/compress/snappy/LICENSE))
 
 ```Copyright (c) 2011 The Snappy-Go Authors. All rights reserved.
 
@@ -1414,7 +1414,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-## github.com/klauspost/compress/zstd/internal/xxhash ([MIT](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/klauspost/compress/zstd/internal/xxhash/LICENSE.txt))
+## github.com/klauspost/compress/zstd/internal/xxhash ([MIT](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/klauspost/compress/zstd/internal/xxhash/LICENSE.txt))
 
 ```Copyright (c) 2016 Caleb Spare
 
@@ -1439,7 +1439,7 @@ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
-## github.com/moby/patternmatcher ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/moby/patternmatcher/LICENSE))
+## github.com/moby/patternmatcher ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/moby/patternmatcher/LICENSE))
 
 ```
                                  Apache License
@@ -1633,7 +1633,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/moby/sys/sequential ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/moby/sys/sequential/LICENSE))
+## github.com/moby/sys/sequential ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/moby/sys/sequential/LICENSE))
 
 ```
                                  Apache License
@@ -1838,7 +1838,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/moby/term ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/moby/term/LICENSE))
+## github.com/moby/term ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/moby/term/LICENSE))
 
 ```
                                  Apache License
@@ -2032,7 +2032,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/morikuni/aec ([MIT](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/morikuni/aec/LICENSE))
+## github.com/morikuni/aec ([MIT](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/morikuni/aec/LICENSE))
 
 ```The MIT License (MIT)
 
@@ -2056,7 +2056,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-## github.com/opencontainers/go-digest ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/opencontainers/go-digest/LICENSE))
+## github.com/opencontainers/go-digest ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/opencontainers/go-digest/LICENSE))
 
 ```
                                  Apache License
@@ -2251,7 +2251,7 @@ SOFTWARE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/opencontainers/image-spec/specs-go ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/opencontainers/image-spec/LICENSE))
+## github.com/opencontainers/image-spec/specs-go ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/opencontainers/image-spec/LICENSE))
 
 ```
                                  Apache License
@@ -2445,7 +2445,7 @@ SOFTWARE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/opencontainers/runc/libcontainer/user ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/opencontainers/runc/LICENSE))
+## github.com/opencontainers/runc/libcontainer/user ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/opencontainers/runc/LICENSE))
 
 ```
                                  Apache License
@@ -2639,7 +2639,7 @@ SOFTWARE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/pkg/errors ([BSD-2-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/pkg/errors/LICENSE))
+## github.com/pkg/errors ([BSD-2-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/pkg/errors/LICENSE))
 
 ```Copyright (c) 2015, Dave Cheney <dave@cheney.net>
 All rights reserved.
@@ -2665,7 +2665,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-## github.com/sirupsen/logrus ([MIT](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/sirupsen/logrus/LICENSE))
+## github.com/sirupsen/logrus ([MIT](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/github.com/sirupsen/logrus/LICENSE))
 
 ```The MIT License (MIT)
 
@@ -2689,7 +2689,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
-## golang.org/x/net/context ([BSD-3-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/golang.org/x/net/LICENSE))
+## golang.org/x/net/context ([BSD-3-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/golang.org/x/net/LICENSE))
 
 ```Copyright (c) 2009 The Go Authors. All rights reserved.
 
@@ -2719,7 +2719,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-## golang.org/x/sys ([BSD-3-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/golang.org/x/sys/LICENSE))
+## golang.org/x/sys ([BSD-3-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/ecs-init/vendor/golang.org/x/sys/LICENSE))
 
 ```Copyright (c) 2009 The Go Authors. All rights reserved.
 

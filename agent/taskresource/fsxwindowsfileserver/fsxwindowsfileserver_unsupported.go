@@ -19,15 +19,15 @@ package fsxwindowsfileserver
 import (
 	"time"
 
-	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
-	asmfactory "github.com/as14692/amazon-ecs-agent/agent/asm/factory"
-	fsxfactory "github.com/as14692/amazon-ecs-agent/agent/fsx/factory"
-	ssmfactory "github.com/as14692/amazon-ecs-agent/agent/ssm/factory"
-	"github.com/as14692/amazon-ecs-agent/agent/taskresource"
-	resourcestatus "github.com/as14692/amazon-ecs-agent/agent/taskresource/status"
-	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/api/task/status"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/credentials"
+	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
+	asmfactory "github.com/aws/amazon-ecs-agent/agent/asm/factory"
+	fsxfactory "github.com/aws/amazon-ecs-agent/agent/fsx/factory"
+	ssmfactory "github.com/aws/amazon-ecs-agent/agent/ssm/factory"
+	"github.com/aws/amazon-ecs-agent/agent/taskresource"
+	resourcestatus "github.com/aws/amazon-ecs-agent/agent/taskresource/status"
+	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/api/task/status"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/credentials"
 	"github.com/pkg/errors"
 )
 

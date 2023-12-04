@@ -14,11 +14,11 @@
 package data
 
 import (
-	"github.com/as14692/amazon-ecs-agent/agent/api/container"
-	"github.com/as14692/amazon-ecs-agent/agent/api/task"
-	"github.com/as14692/amazon-ecs-agent/agent/engine/image"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/api/attachment/resource"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	"github.com/aws/amazon-ecs-agent/agent/api/container"
+	"github.com/aws/amazon-ecs-agent/agent/api/task"
+	"github.com/aws/amazon-ecs-agent/agent/engine/image"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/api/attachment/resource"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
 )
 
 type noopClient struct{}

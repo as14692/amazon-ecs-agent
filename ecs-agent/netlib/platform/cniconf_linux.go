@@ -22,10 +22,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/appmesh"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/ecscni"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/serviceconnect"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/appmesh"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/ecscni"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/serviceconnect"
 
 	"github.com/containernetworking/cni/pkg/types"
 )

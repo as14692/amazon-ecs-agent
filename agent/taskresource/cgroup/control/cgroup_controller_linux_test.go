@@ -20,8 +20,8 @@ import (
 	"errors"
 	"testing"
 
-	mock_cgroups "github.com/as14692/amazon-ecs-agent/agent/taskresource/cgroup/control/factory/mock"
-	"github.com/as14692/amazon-ecs-agent/agent/taskresource/cgroup/control/factory/mock_factory"
+	mock_cgroups "github.com/aws/amazon-ecs-agent/agent/taskresource/cgroup/control/factory/mock"
+	"github.com/aws/amazon-ecs-agent/agent/taskresource/cgroup/control/factory/mock_factory"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/stretchr/testify/assert"
 

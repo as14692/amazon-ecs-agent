@@ -16,7 +16,7 @@ package data
 import (
 	"encoding/json"
 
-	"github.com/as14692/amazon-ecs-agent/agent/engine/image"
+	"github.com/aws/amazon-ecs-agent/agent/engine/image"
 
 	"github.com/pkg/errors"
 	bolt "go.etcd.io/bbolt"

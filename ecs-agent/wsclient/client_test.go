@@ -28,11 +28,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/metrics"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/metrics"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/wsclient/mock/utils"
-	mock_wsconn "github.com/as14692/amazon-ecs-agent/ecs-agent/wsclient/wsconn/mock"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/wsclient/mock/utils"
+	mock_wsconn "github.com/aws/amazon-ecs-agent/ecs-agent/wsclient/wsconn/mock"
 	"github.com/golang/mock/gomock"
 
 	"github.com/aws/aws-sdk-go/aws"

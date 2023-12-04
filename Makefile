@@ -71,10 +71,10 @@ BUILDER_IMAGE="amazon/amazon-ecs-agent-build:make"
 build-in-docker: .builder-image-stamp .out-stamp
 	@docker run --net=none \
 		--env TARGET_OS="${TARGET_OS}" \
-		--env LDFLAGS="-X github.com/as14692/amazon-ecs-agent/agent/config.DefaultPauseContainerTag=$(PAUSE_CONTAINER_TAG) \
-			-X github.com/as14692/amazon-ecs-agent/agent/config.DefaultPauseContainerImageName=$(PAUSE_CONTAINER_IMAGE)" \
+		--env LDFLAGS="-X github.com/aws/amazon-ecs-agent/agent/config.DefaultPauseContainerTag=$(PAUSE_CONTAINER_TAG) \
+			-X github.com/aws/amazon-ecs-agent/agent/config.DefaultPauseContainerImageName=$(PAUSE_CONTAINER_IMAGE)" \
 		--volume "$(PWD)/out:/out" \
-		--volume "$(PWD):/go/src/github.com/as14692/amazon-ecs-agent" \
+		--volume "$(PWD):/go/src/github.com/aws/amazon-ecs-agent" \
 		--user "$(USERID)" \
 		--rm \
 		$(BUILDER_IMAGE)
@@ -100,8 +100,8 @@ docker-release: pause-container-release cni-plugins .out-stamp
 	@docker run --net=none \
 		--env TARGET_OS="${TARGET_OS}" \
 		--env GO111MODULE=auto \
-		--env LDFLAGS="-X github.com/as14692/amazon-ecs-agent/agent/config.DefaultPauseContainerTag=$(PAUSE_CONTAINER_TAG) \
-			-X github.com/as14692/amazon-ecs-agent/agent/config.DefaultPauseContainerImageName=$(PAUSE_CONTAINER_IMAGE)" \
+		--env LDFLAGS="-X github.com/aws/amazon-ecs-agent/agent/config.DefaultPauseContainerTag=$(PAUSE_CONTAINER_TAG) \
+			-X github.com/aws/amazon-ecs-agent/agent/config.DefaultPauseContainerImageName=$(PAUSE_CONTAINER_IMAGE)" \
 		--user "$(USERID)" \
 		--volume "$(PWD)/out:/out" \
 		--volume "$(PWD):/src/amazon-ecs-agent" \

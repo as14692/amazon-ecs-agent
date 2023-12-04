@@ -10,12 +10,12 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          path: src/github.com/as14692/amazon-ecs-agent
+          path: src/github.com/aws/amazon-ecs-agent
       - name: get GO_VERSION
         id: get-go-version
         run:  |
           cd "$Env:GITHUB_WORKSPACE"
-          cd "src/github.com/as14692/amazon-ecs-agent"
+          cd "src/github.com/aws/amazon-ecs-agent"
           $ErrorActionPreference = "Stop"
           $go_version_win = $(type GO_VERSION_WINDOWS)
           $go_version_re = "^\d+\.{1,2}\d+$"
@@ -30,13 +30,13 @@ jobs:
       - uses: actions/checkout@v3
         with:
           submodules: true
-          path: src/github.com/as14692/amazon-ecs-agent
+          path: src/github.com/aws/amazon-ecs-agent
       - name: run agent tests
         working-directory:
         run: |
           $Env:GOPATH = "$Env:GITHUB_WORKSPACE"
           cd "$Env:GITHUB_WORKSPACE"
-          cd "src/github.com/as14692/amazon-ecs-agent/agent"
+          cd "src/github.com/aws/amazon-ecs-agent/agent"
           gcc --version
           $env:ZZZ_SKIP_WINDOWS_SERVER_VERSION_CHECK_NOT_SUPPORTED_IN_PRODUCTION = 'true'
           $packages=go list .\... | Where-Object {$_ -NotMatch 'vendor'}
@@ -46,7 +46,7 @@ jobs:
         run: |
           $Env:GOPATH = "$Env:GITHUB_WORKSPACE"
           cd "$Env:GITHUB_WORKSPACE"
-          cd "src/github.com/as14692/amazon-ecs-agent/ecs-agent"
+          cd "src/github.com/aws/amazon-ecs-agent/ecs-agent"
           gcc --version
           $packages=go list .\... | Where-Object {$_ -NotMatch 'vendor'}
           go test -v -tags unit -timeout=120s $packages

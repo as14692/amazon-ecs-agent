@@ -14,7 +14,7 @@
 package v3
 
 import (
-	"github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
+	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
 	"github.com/pkg/errors"
 )
 

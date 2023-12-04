@@ -29,9 +29,9 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	mock_s3 "github.com/as14692/amazon-ecs-agent/agent/s3/mocks"
-	mock_s3manager "github.com/as14692/amazon-ecs-agent/agent/s3/mocks/s3manager"
-	mock_oswrapper "github.com/as14692/amazon-ecs-agent/agent/utils/oswrapper/mocks"
+	mock_s3 "github.com/aws/amazon-ecs-agent/agent/s3/mocks"
+	mock_s3manager "github.com/aws/amazon-ecs-agent/agent/s3/mocks/s3manager"
+	mock_oswrapper "github.com/aws/amazon-ecs-agent/agent/utils/oswrapper/mocks"
 )
 
 const (

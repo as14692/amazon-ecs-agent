@@ -17,7 +17,7 @@
 package stats
 
 import (
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/tcs/model/ecstcs"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/tcs/model/ecstcs"
 )
 
 func (engine *DockerStatsEngine) getEBSVolumeMetrics(taskArn string) []*ecstcs.VolumeMetric {

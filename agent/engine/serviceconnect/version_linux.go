@@ -18,8 +18,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger/field"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/logger/field"
 )
 
 const (

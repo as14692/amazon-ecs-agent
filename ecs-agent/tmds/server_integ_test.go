@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	mock_audit "github.com/as14692/amazon-ecs-agent/ecs-agent/logger/audit/mocks"
+	mock_audit "github.com/aws/amazon-ecs-agent/ecs-agent/logger/audit/mocks"
 
 	"github.com/golang/mock/gomock"
 	"github.com/gorilla/mux"

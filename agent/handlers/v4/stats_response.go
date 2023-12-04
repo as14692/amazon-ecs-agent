@@ -14,9 +14,9 @@
 package v4
 
 import (
-	"github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
-	"github.com/as14692/amazon-ecs-agent/agent/stats"
-	response "github.com/as14692/amazon-ecs-agent/ecs-agent/tmds/handlers/v4/state"
+	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
+	"github.com/aws/amazon-ecs-agent/agent/stats"
+	response "github.com/aws/amazon-ecs-agent/ecs-agent/tmds/handlers/v4/state"
 
 	"github.com/cihub/seelog"
 	"github.com/pkg/errors"

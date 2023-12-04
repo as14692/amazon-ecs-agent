@@ -21,19 +21,19 @@ import (
 	"strings"
 	"time"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger/field"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/logger/field"
 
 	log "github.com/cihub/seelog"
 	"github.com/deniswernert/udev"
 	"github.com/pkg/errors"
 	"github.com/vishvananda/netlink"
 
-	"github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
-	"github.com/as14692/amazon-ecs-agent/agent/eni/netlinkwrapper"
-	"github.com/as14692/amazon-ecs-agent/agent/eni/networkutils"
-	"github.com/as14692/amazon-ecs-agent/agent/eni/udevwrapper"
-	"github.com/as14692/amazon-ecs-agent/agent/statechange"
+	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
+	"github.com/aws/amazon-ecs-agent/agent/eni/netlinkwrapper"
+	"github.com/aws/amazon-ecs-agent/agent/eni/networkutils"
+	"github.com/aws/amazon-ecs-agent/agent/eni/udevwrapper"
+	"github.com/aws/amazon-ecs-agent/agent/statechange"
 )
 
 const (

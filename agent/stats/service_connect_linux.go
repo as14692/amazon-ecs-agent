@@ -21,12 +21,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/api/appnet"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/api/appnet"
 
-	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger/field"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/tcs/model/ecstcs"
+	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/logger/field"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/tcs/model/ecstcs"
 	prometheus "github.com/prometheus/client_model/go"
 )
 

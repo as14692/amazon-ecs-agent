@@ -24,14 +24,14 @@ import (
 
 	"github.com/pborman/uuid"
 
-	"github.com/as14692/amazon-ecs-agent/agent/api/container"
-	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
-	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
-	"github.com/as14692/amazon-ecs-agent/agent/dockerclient"
-	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi"
-	mock_dockerapi "github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi/mocks"
-	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
-	errors2 "github.com/as14692/amazon-ecs-agent/ecs-agent/api/errors"
+	"github.com/aws/amazon-ecs-agent/agent/api/container"
+	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
+	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
+	"github.com/aws/amazon-ecs-agent/agent/dockerclient"
+	"github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi"
+	mock_dockerapi "github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi/mocks"
+	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
+	errors2 "github.com/aws/amazon-ecs-agent/ecs-agent/api/errors"
 
 	"github.com/docker/docker/api/types"
 	"github.com/golang/mock/gomock"

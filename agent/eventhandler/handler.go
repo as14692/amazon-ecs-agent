@@ -17,9 +17,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/as14692/amazon-ecs-agent/agent/api"
-	"github.com/as14692/amazon-ecs-agent/agent/engine"
-	"github.com/as14692/amazon-ecs-agent/agent/statechange"
+	"github.com/aws/amazon-ecs-agent/agent/api"
+	"github.com/aws/amazon-ecs-agent/agent/engine"
+	"github.com/aws/amazon-ecs-agent/agent/statechange"
 	"github.com/cihub/seelog"
 )
 

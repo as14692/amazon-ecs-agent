@@ -19,7 +19,7 @@ package taskresource
 import (
 	"context"
 
-	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi"
+	"github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi"
 )
 
 // ResourceFields is the list of fields required for creation of task resources

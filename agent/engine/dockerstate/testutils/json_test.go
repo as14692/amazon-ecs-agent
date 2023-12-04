@@ -22,11 +22,11 @@ import (
 	"strconv"
 	"testing"
 
-	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
-	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
-	"github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
-	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
-	apitaskstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/task/status"
+	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
+	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
+	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
+	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
+	apitaskstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/task/status"
 	"github.com/stretchr/testify/assert"
 )
 

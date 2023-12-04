@@ -24,7 +24,7 @@ Environment Variables:
 
 The environment variables from which configuration values are loaded are
 documented in the README file which can be found at
-https://github.com/as14692/amazon-ecs-agent#environment-variables.
+https://github.com/aws/amazon-ecs-agent#environment-variables.
 
 Config file:
 

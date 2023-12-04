@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi"
-	mock_dockerapi "github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi/mocks"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/doctor"
+	"github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi"
+	mock_dockerapi "github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi/mocks"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/doctor"
 	"github.com/docker/docker/api/types"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"

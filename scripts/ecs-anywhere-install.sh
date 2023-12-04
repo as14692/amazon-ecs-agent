@@ -662,7 +662,7 @@ show-license() {
     echo "##########################"
     echo "This script installed three open source packages that all use Apache License 2.0."
     echo "You can view their license information here:"
-    echo "  - ECS Agent https://github.com/as14692/amazon-ecs-agent/blob/master/LICENSE"
+    echo "  - ECS Agent https://github.com/aws/amazon-ecs-agent/blob/master/LICENSE"
     echo "  - SSM Agent https://github.com/aws/amazon-ssm-agent/blob/master/LICENSE"
     echo "  - Docker engine https://github.com/moby/moby/blob/master/LICENSE"
     echo "##########################"

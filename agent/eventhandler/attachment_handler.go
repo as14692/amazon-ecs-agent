@@ -19,12 +19,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/as14692/amazon-ecs-agent/agent/api"
-	"github.com/as14692/amazon-ecs-agent/agent/data"
-	"github.com/as14692/amazon-ecs-agent/agent/statechange"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/api/attachment/resource"
-	ni "github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/utils/retry"
+	"github.com/aws/amazon-ecs-agent/agent/api"
+	"github.com/aws/amazon-ecs-agent/agent/data"
+	"github.com/aws/amazon-ecs-agent/agent/statechange"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/api/attachment/resource"
+	ni "github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/utils/retry"
 	"github.com/cihub/seelog"
 )
 

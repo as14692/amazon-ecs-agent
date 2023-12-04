@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/as14692/amazon-ecs-agent/agent/config"
-	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi"
-	"github.com/as14692/amazon-ecs-agent/agent/utils/loader"
+	"github.com/aws/amazon-ecs-agent/agent/config"
+	"github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi"
+	"github.com/aws/amazon-ecs-agent/agent/utils/loader"
 	"github.com/docker/docker/api/types"
 )
 

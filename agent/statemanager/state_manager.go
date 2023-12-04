@@ -25,8 +25,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/as14692/amazon-ecs-agent/agent/config"
-	"github.com/as14692/amazon-ecs-agent/agent/metrics"
+	"github.com/aws/amazon-ecs-agent/agent/config"
+	"github.com/aws/amazon-ecs-agent/agent/metrics"
 
 	"github.com/cihub/seelog"
 )
@@ -39,7 +39,7 @@ DEPRECATED: state manager is no longer used to store agent state and it remains 
  You no longer need to update ECSDataVersion when changing data structure
  in agent.
 
-Agent now uses boltDB to store its state. See github.com/as14692/amazon-ecs-agent/agent/data
+Agent now uses boltDB to store its state. See github.com/aws/amazon-ecs-agent/agent/data
  package for the new data persistent interface and use that if you need to deal with data persistence.
 
 */

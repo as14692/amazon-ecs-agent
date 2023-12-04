@@ -16,7 +16,7 @@ package v1
 import (
 	"net/http"
 
-	"github.com/as14692/amazon-ecs-agent/agent/utils"
+	"github.com/aws/amazon-ecs-agent/agent/utils"
 )
 
 const LicensePath = "/license"

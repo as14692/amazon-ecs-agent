@@ -14,8 +14,8 @@
 package engine
 
 import (
-	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
-	apierrors "github.com/as14692/amazon-ecs-agent/ecs-agent/api/errors"
+	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
+	apierrors "github.com/aws/amazon-ecs-agent/ecs-agent/api/errors"
 )
 
 type cannotStopContainerError interface {

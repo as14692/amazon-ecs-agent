@@ -13,4 +13,4 @@
 
 package ioutilwrapper
 
-//go:generate mockgen -destination=mocks/ioutilwrapper_mocks.go -copyright_file=../../../scripts/copyright_file github.com/as14692/amazon-ecs-agent/ecs-agent/utils/ioutilwrapper IOUtil
+//go:generate mockgen -destination=mocks/ioutilwrapper_mocks.go -copyright_file=../../../scripts/copyright_file github.com/aws/amazon-ecs-agent/ecs-agent/utils/ioutilwrapper IOUtil

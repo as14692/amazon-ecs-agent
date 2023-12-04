@@ -18,10 +18,10 @@ import (
 
 	"context"
 
-	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
-	"github.com/as14692/amazon-ecs-agent/agent/data"
-	dm "github.com/as14692/amazon-ecs-agent/agent/engine/daemonmanager"
-	"github.com/as14692/amazon-ecs-agent/agent/statechange"
+	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
+	"github.com/aws/amazon-ecs-agent/agent/data"
+	dm "github.com/aws/amazon-ecs-agent/agent/engine/daemonmanager"
+	"github.com/aws/amazon-ecs-agent/agent/statechange"
 )
 
 // TaskEngine is an interface for the DockerTaskEngine

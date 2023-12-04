@@ -19,10 +19,10 @@ package app
 import (
 	"path/filepath"
 
-	"github.com/as14692/amazon-ecs-agent/agent/config"
-	"github.com/as14692/amazon-ecs-agent/agent/ecscni"
-	"github.com/as14692/amazon-ecs-agent/agent/taskresource/volume"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/api/ecs/model/ecs"
+	"github.com/aws/amazon-ecs-agent/agent/config"
+	"github.com/aws/amazon-ecs-agent/agent/ecscni"
+	"github.com/aws/amazon-ecs-agent/agent/taskresource/volume"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/api/ecs/model/ecs"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/cihub/seelog"
 )

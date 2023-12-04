@@ -15,7 +15,7 @@
 
 package execcmd
 
-import apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+import apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
 
 const (
 	execAgentCmdUser   = "NT AUTHORITY\\SYSTEM"

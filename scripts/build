@@ -51,7 +51,7 @@ export SRCPATH="${BUILDDIR}/src/github.com/aws"
 mkdir -p "${SRCPATH}"
 
 # create a gopath-friendly symlink to the BUILDROOT
-# codebuild's path is TOPWD=/codebuild/output/src381519807/src/github.com/as14692/amazon-ecs-agent/BUILDROOT
+# codebuild's path is TOPWD=/codebuild/output/src381519807/src/github.com/aws/amazon-ecs-agent/BUILDROOT
 cd "${SRCPATH}"
 ln -s "${TOPWD}" "amazon-ecs-agent"
 
@@ -71,7 +71,7 @@ if [[ "${version_gen}" == "true" ]]; then
 fi
 
 if [[ "${with_pause}" == "true" ]]; then
-    LDFLAGS="-X github.com/as14692/amazon-ecs-agent/agent/config.DefaultPauseContainerTag=$PAUSE_CONTAINER_TAG -X github.com/as14692/amazon-ecs-agent/agent/config.DefaultPauseContainerImageName=$PAUSE_CONTAINER_IMAGE"
+    LDFLAGS="-X github.com/aws/amazon-ecs-agent/agent/config.DefaultPauseContainerTag=$PAUSE_CONTAINER_TAG -X github.com/aws/amazon-ecs-agent/agent/config.DefaultPauseContainerImageName=$PAUSE_CONTAINER_IMAGE"
 fi
 
 if [ "${TARGET_OS}" == "windows" ]; then

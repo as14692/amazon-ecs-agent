@@ -18,17 +18,17 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
-	"github.com/as14692/amazon-ecs-agent/agent/statechange"
+	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
+	"github.com/aws/amazon-ecs-agent/agent/statechange"
 
 	log "github.com/cihub/seelog"
 	"github.com/pkg/errors"
 
-	"github.com/as14692/amazon-ecs-agent/agent/api"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/api/attachment"
-	apierrors "github.com/as14692/amazon-ecs-agent/ecs-agent/api/errors"
-	ni "github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/utils/retry"
+	"github.com/aws/amazon-ecs-agent/agent/api"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/api/attachment"
+	apierrors "github.com/aws/amazon-ecs-agent/ecs-agent/api/errors"
+	ni "github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/utils/retry"
 )
 
 const (

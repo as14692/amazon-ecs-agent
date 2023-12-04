@@ -1,6 +1,6 @@
 <!--
 Please make sure you've read and understood our contributing guidelines;
-https://github.com/as14692/amazon-ecs-agent/blob/master/CONTRIBUTING.md
+https://github.com/aws/amazon-ecs-agent/blob/master/CONTRIBUTING.md
 
 Please provide the following information:
 -->
@@ -32,7 +32,7 @@ New tests cover the changes: <!-- yes|no -->
 Write a short (one line) summary that describes the changes in this
 pull request for inclusion in the changelog.
 You can see our changelog entry style here:
-https://github.com/as14692/amazon-ecs-agent/commit/c9aefebc2b3007f09468f651f6308136bd7b384f
+https://github.com/aws/amazon-ecs-agent/commit/c9aefebc2b3007f09468f651f6308136bd7b384f
 -->
 
 **Does this PR include breaking model changes? If so, Have you added transformation functions?**

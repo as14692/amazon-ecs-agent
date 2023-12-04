@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/as14692/amazon-ecs-agent/agent/taskresource/fsxwindowsfileserver"
+	"github.com/aws/amazon-ecs-agent/agent/taskresource/fsxwindowsfileserver"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -25,10 +25,10 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
-	mock_session "github.com/as14692/amazon-ecs-agent/ecs-agent/acs/session/mocks"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/acs/session/testconst"
-	ni "github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
+	mock_session "github.com/aws/amazon-ecs-agent/ecs-agent/acs/session/mocks"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/acs/session/testconst"
+	ni "github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
 )
 
 var testAttachInstanceENIMessage = &ecsacs.AttachInstanceNetworkInterfacesMessage{

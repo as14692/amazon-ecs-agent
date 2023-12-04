@@ -1,4 +1,4 @@
-## github.com/aws/aws-sdk-go ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/aws/aws-sdk-go/LICENSE.txt))
+## github.com/aws/aws-sdk-go ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/aws/aws-sdk-go/LICENSE.txt))
 
 ```
                                  Apache License
@@ -203,7 +203,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/aws/aws-sdk-go/internal/sync/singleflight ([BSD-3-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/aws/aws-sdk-go/internal/sync/singleflight/LICENSE))
+## github.com/aws/aws-sdk-go/internal/sync/singleflight ([BSD-3-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/aws/aws-sdk-go/internal/sync/singleflight/LICENSE))
 
 ```Copyright (c) 2009 The Go Authors. All rights reserved.
 
@@ -233,7 +233,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-## github.com/beorn7/perks/quantile ([MIT](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/beorn7/perks/LICENSE))
+## github.com/beorn7/perks/quantile ([MIT](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/beorn7/perks/LICENSE))
 
 ```Copyright (C) 2013 Blake Mizerany
 
@@ -256,7 +256,7 @@ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
-## github.com/cespare/xxhash/v2 ([MIT](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/cespare/xxhash/v2/LICENSE.txt))
+## github.com/cespare/xxhash/v2 ([MIT](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/cespare/xxhash/v2/LICENSE.txt))
 
 ```Copyright (c) 2016 Caleb Spare
 
@@ -281,7 +281,7 @@ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
-## github.com/cihub/seelog ([BSD-3-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/cihub/seelog/LICENSE.txt))
+## github.com/cihub/seelog ([BSD-3-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/cihub/seelog/LICENSE.txt))
 
 ```Copyright (c) 2012, Cloud Instruments Co., Ltd. <info@cin.io>
 All rights reserved.
@@ -308,7 +308,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-## github.com/cilium/ebpf ([MIT](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/cilium/ebpf/LICENSE))
+## github.com/cilium/ebpf ([MIT](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/cilium/ebpf/LICENSE))
 
 ```MIT License
 
@@ -334,7 +334,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-## github.com/containerd/cgroups ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/containerd/cgroups/LICENSE))
+## github.com/containerd/cgroups ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/containerd/cgroups/LICENSE))
 
 ```                                 Apache License
                            Version 2.0, January 2004
@@ -538,7 +538,7 @@ SOFTWARE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/containernetworking/cni ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/containernetworking/cni/LICENSE))
+## github.com/containernetworking/cni ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/containernetworking/cni/LICENSE))
 
 ```                                 Apache License
                            Version 2.0, January 2004
@@ -743,7 +743,7 @@ SOFTWARE.
    limitations under the License.
 
 ```
-## github.com/containernetworking/plugins/pkg/ns ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/containernetworking/plugins/LICENSE))
+## github.com/containernetworking/plugins/pkg/ns ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/containernetworking/plugins/LICENSE))
 
 ```                                 Apache License
                            Version 2.0, January 2004
@@ -947,7 +947,7 @@ SOFTWARE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/coreos/go-systemd/v22/dbus ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/coreos/go-systemd/v22/LICENSE))
+## github.com/coreos/go-systemd/v22/dbus ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/coreos/go-systemd/v22/LICENSE))
 
 ```Apache License
 Version 2.0, January 2004
@@ -1141,7 +1141,7 @@ third-party archives.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/deniswernert/udev ([MIT](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/deniswernert/udev/LICENSE))
+## github.com/deniswernert/udev ([MIT](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/deniswernert/udev/LICENSE))
 
 ```The MIT License (MIT)
 
@@ -1164,7 +1164,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.```
-## github.com/didip/tollbooth ([MIT](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/didip/tollbooth/LICENSE))
+## github.com/didip/tollbooth ([MIT](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/didip/tollbooth/LICENSE))
 
 ```The MIT License (MIT)
 
@@ -1188,7 +1188,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
-## github.com/docker/distribution ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/docker/distribution/LICENSE))
+## github.com/docker/distribution ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/docker/distribution/LICENSE))
 
 ```Apache License
                            Version 2.0, January 2004
@@ -1393,7 +1393,7 @@ THE SOFTWARE.
    limitations under the License.
 
 ```
-## github.com/docker/docker ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/docker/docker/LICENSE))
+## github.com/docker/docker ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/docker/docker/LICENSE))
 
 ```
                                  Apache License
@@ -1587,7 +1587,7 @@ THE SOFTWARE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/docker/go-connections ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/docker/go-connections/LICENSE))
+## github.com/docker/go-connections ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/docker/go-connections/LICENSE))
 
 ```
                                  Apache License
@@ -1781,7 +1781,7 @@ THE SOFTWARE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/docker/go-units ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/docker/go-units/LICENSE))
+## github.com/docker/go-units ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/docker/go-units/LICENSE))
 
 ```
                                  Apache License
@@ -1975,7 +1975,7 @@ THE SOFTWARE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/fsnotify/fsnotify ([BSD-3-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/fsnotify/fsnotify/LICENSE))
+## github.com/fsnotify/fsnotify ([BSD-3-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/fsnotify/fsnotify/LICENSE))
 
 ```Copyright © 2012 The Go Authors. All rights reserved.
 Copyright © fsnotify Authors. All rights reserved.
@@ -2003,7 +2003,7 @@ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-## github.com/godbus/dbus/v5 ([BSD-2-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/godbus/dbus/v5/LICENSE))
+## github.com/godbus/dbus/v5 ([BSD-2-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/godbus/dbus/v5/LICENSE))
 
 ```Copyright (c) 2013, Georg Reinke (<guelfey at gmail dot com>), Google
 All rights reserved.
@@ -2031,7 +2031,7 @@ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
 NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-## github.com/gogo/protobuf ([BSD-3-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/gogo/protobuf/LICENSE))
+## github.com/gogo/protobuf ([BSD-3-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/gogo/protobuf/LICENSE))
 
 ```Copyright (c) 2013, The GoGo Authors. All rights reserved.
 
@@ -2069,7 +2069,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ```
-## github.com/golang/mock/gomock ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/golang/mock/LICENSE))
+## github.com/golang/mock/gomock ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/golang/mock/LICENSE))
 
 ```
                                  Apache License
@@ -2274,7 +2274,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/golang/protobuf ([BSD-3-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/golang/protobuf/LICENSE))
+## github.com/golang/protobuf ([BSD-3-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/golang/protobuf/LICENSE))
 
 ```Copyright 2010 The Go Authors.  All rights reserved.
 
@@ -2305,7 +2305,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ```
-## github.com/google/uuid ([BSD-3-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/google/uuid/LICENSE))
+## github.com/google/uuid ([BSD-3-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/google/uuid/LICENSE))
 
 ```Copyright (c) 2009,2014 Google Inc. All rights reserved.
 
@@ -2335,7 +2335,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-## github.com/gorilla/mux ([BSD-3-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/gorilla/mux/LICENSE))
+## github.com/gorilla/mux ([BSD-3-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/gorilla/mux/LICENSE))
 
 ```Copyright (c) 2012-2018 The Gorilla Authors. All rights reserved.
 
@@ -2365,7 +2365,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-## github.com/gorilla/websocket ([BSD-2-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/gorilla/websocket/LICENSE))
+## github.com/gorilla/websocket ([BSD-2-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/gorilla/websocket/LICENSE))
 
 ```Copyright (c) 2013 The Gorilla WebSocket Authors. All rights reserved.
 
@@ -2390,7 +2390,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-## github.com/jmespath/go-jmespath ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/jmespath/go-jmespath/LICENSE))
+## github.com/jmespath/go-jmespath ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/jmespath/go-jmespath/LICENSE))
 
 ```Copyright 2015 James Saryerwinnie
 
@@ -2406,7 +2406,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
-## github.com/matttproud/golang_protobuf_extensions/pbutil ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/matttproud/golang_protobuf_extensions/LICENSE))
+## github.com/matttproud/golang_protobuf_extensions/pbutil ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/matttproud/golang_protobuf_extensions/LICENSE))
 
 ```                                 Apache License
                            Version 2.0, January 2004
@@ -2610,7 +2610,7 @@ limitations under the License.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/moby/sys/mount ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/moby/sys/mount/LICENSE))
+## github.com/moby/sys/mount ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/moby/sys/mount/LICENSE))
 
 ```
                                  Apache License
@@ -2815,7 +2815,7 @@ limitations under the License.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/moby/sys/mountinfo ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/moby/sys/mountinfo/LICENSE))
+## github.com/moby/sys/mountinfo ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/moby/sys/mountinfo/LICENSE))
 
 ```
                                  Apache License
@@ -3020,7 +3020,7 @@ limitations under the License.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/opencontainers/go-digest ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/opencontainers/go-digest/LICENSE))
+## github.com/opencontainers/go-digest ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/opencontainers/go-digest/LICENSE))
 
 ```
                                  Apache License
@@ -3215,7 +3215,7 @@ limitations under the License.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/opencontainers/image-spec/specs-go ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/opencontainers/image-spec/LICENSE))
+## github.com/opencontainers/image-spec/specs-go ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/opencontainers/image-spec/LICENSE))
 
 ```
                                  Apache License
@@ -3409,7 +3409,7 @@ limitations under the License.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/opencontainers/runtime-spec/specs-go ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/opencontainers/runtime-spec/LICENSE))
+## github.com/opencontainers/runtime-spec/specs-go ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/opencontainers/runtime-spec/LICENSE))
 
 ```
                                  Apache License
@@ -3603,7 +3603,7 @@ limitations under the License.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/patrickmn/go-cache ([MIT](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/patrickmn/go-cache/LICENSE))
+## github.com/patrickmn/go-cache ([MIT](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/patrickmn/go-cache/LICENSE))
 
 ```Copyright (c) 2012-2017 Patrick Mylund Nielsen and the go-cache contributors
 
@@ -3625,7 +3625,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
-## github.com/pborman/uuid ([BSD-3-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/pborman/uuid/LICENSE))
+## github.com/pborman/uuid ([BSD-3-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/pborman/uuid/LICENSE))
 
 ```Copyright (c) 2009,2014 Google Inc. All rights reserved.
 
@@ -3655,7 +3655,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-## github.com/pkg/errors ([BSD-2-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/pkg/errors/LICENSE))
+## github.com/pkg/errors ([BSD-2-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/pkg/errors/LICENSE))
 
 ```Copyright (c) 2015, Dave Cheney <dave@cheney.net>
 All rights reserved.
@@ -3681,7 +3681,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-## github.com/prometheus/client_golang/prometheus ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/prometheus/client_golang/LICENSE))
+## github.com/prometheus/client_golang/prometheus ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/prometheus/client_golang/LICENSE))
 
 ```                                 Apache License
                            Version 2.0, January 2004
@@ -3885,7 +3885,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/prometheus/client_model/go ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/prometheus/client_model/LICENSE))
+## github.com/prometheus/client_model/go ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/prometheus/client_model/LICENSE))
 
 ```                                 Apache License
                            Version 2.0, January 2004
@@ -4089,7 +4089,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/prometheus/common ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/prometheus/common/LICENSE))
+## github.com/prometheus/common ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/prometheus/common/LICENSE))
 
 ```                                 Apache License
                            Version 2.0, January 2004
@@ -4293,7 +4293,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/prometheus/common/internal/bitbucket.org/ww/goautoneg ([BSD-3-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/prometheus/common/internal/bitbucket.org/ww/goautoneg/README.txt))
+## github.com/prometheus/common/internal/bitbucket.org/ww/goautoneg ([BSD-3-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/prometheus/common/internal/bitbucket.org/ww/goautoneg/README.txt))
 
 ```PACKAGE
 
@@ -4363,7 +4363,7 @@ SUBDIRECTORIES
 
 	.hg
 ```
-## github.com/prometheus/procfs ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/prometheus/procfs/LICENSE))
+## github.com/prometheus/procfs ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/prometheus/procfs/LICENSE))
 
 ```                                 Apache License
                            Version 2.0, January 2004
@@ -4567,7 +4567,7 @@ SUBDIRECTORIES
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/sirupsen/logrus ([MIT](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/sirupsen/logrus/LICENSE))
+## github.com/sirupsen/logrus ([MIT](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/sirupsen/logrus/LICENSE))
 
 ```The MIT License (MIT)
 
@@ -4591,7 +4591,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
-## github.com/vishvananda/netlink ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/vishvananda/netlink/LICENSE))
+## github.com/vishvananda/netlink ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/vishvananda/netlink/LICENSE))
 
 ```
                                  Apache License
@@ -4786,7 +4786,7 @@ THE SOFTWARE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## github.com/vishvananda/netns ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/vishvananda/netns/LICENSE))
+## github.com/vishvananda/netns ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/github.com/vishvananda/netns/LICENSE))
 
 ```
                                  Apache License
@@ -4981,7 +4981,7 @@ THE SOFTWARE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## go.etcd.io/bbolt ([MIT](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/go.etcd.io/bbolt/LICENSE))
+## go.etcd.io/bbolt ([MIT](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/go.etcd.io/bbolt/LICENSE))
 
 ```The MIT License (MIT)
 
@@ -5004,7 +5004,7 @@ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
-## golang.org/x/net ([BSD-3-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/golang.org/x/net/LICENSE))
+## golang.org/x/net ([BSD-3-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/golang.org/x/net/LICENSE))
 
 ```Copyright (c) 2009 The Go Authors. All rights reserved.
 
@@ -5034,7 +5034,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-## golang.org/x/sys/unix ([BSD-3-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/golang.org/x/sys/LICENSE))
+## golang.org/x/sys/unix ([BSD-3-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/golang.org/x/sys/LICENSE))
 
 ```Copyright (c) 2009 The Go Authors. All rights reserved.
 
@@ -5064,7 +5064,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-## golang.org/x/text ([BSD-3-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/golang.org/x/text/LICENSE))
+## golang.org/x/text ([BSD-3-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/golang.org/x/text/LICENSE))
 
 ```Copyright (c) 2009 The Go Authors. All rights reserved.
 
@@ -5094,7 +5094,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-## golang.org/x/time/rate ([BSD-3-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/golang.org/x/time/LICENSE))
+## golang.org/x/time/rate ([BSD-3-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/golang.org/x/time/LICENSE))
 
 ```Copyright (c) 2009 The Go Authors. All rights reserved.
 
@@ -5124,7 +5124,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-## google.golang.org/genproto/googleapis/rpc/status ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/google.golang.org/genproto/LICENSE))
+## google.golang.org/genproto/googleapis/rpc/status ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/google.golang.org/genproto/LICENSE))
 
 ```
                                  Apache License
@@ -5329,7 +5329,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## google.golang.org/grpc ([Apache-2.0](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/google.golang.org/grpc/LICENSE))
+## google.golang.org/grpc ([Apache-2.0](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/google.golang.org/grpc/LICENSE))
 
 ```
                                  Apache License
@@ -5534,7 +5534,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## google.golang.org/protobuf ([BSD-3-Clause](https://github.com/as14692/amazon-ecs-agent/blob/HEAD/agent/vendor/google.golang.org/protobuf/LICENSE))
+## google.golang.org/protobuf ([BSD-3-Clause](https://github.com/aws/amazon-ecs-agent/blob/HEAD/agent/vendor/google.golang.org/protobuf/LICENSE))
 
 ```Copyright (c) 2018 The Go Authors. All rights reserved.
 

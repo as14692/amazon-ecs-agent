@@ -16,17 +16,17 @@
 package engine
 
 import (
-	"github.com/as14692/amazon-ecs-agent/agent/config"
-	"github.com/as14692/amazon-ecs-agent/agent/containermetadata"
-	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi"
-	dm "github.com/as14692/amazon-ecs-agent/agent/engine/daemonmanager"
-	"github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
-	"github.com/as14692/amazon-ecs-agent/agent/engine/execcmd"
-	"github.com/as14692/amazon-ecs-agent/agent/engine/serviceconnect"
-	"github.com/as14692/amazon-ecs-agent/agent/taskresource"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/api/ecs/model/ecs"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/credentials"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/eventstream"
+	"github.com/aws/amazon-ecs-agent/agent/config"
+	"github.com/aws/amazon-ecs-agent/agent/containermetadata"
+	"github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi"
+	dm "github.com/aws/amazon-ecs-agent/agent/engine/daemonmanager"
+	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
+	"github.com/aws/amazon-ecs-agent/agent/engine/execcmd"
+	"github.com/aws/amazon-ecs-agent/agent/engine/serviceconnect"
+	"github.com/aws/amazon-ecs-agent/agent/taskresource"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/api/ecs/model/ecs"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/credentials"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/eventstream"
 )
 
 // NewTaskEngine returns a default TaskEngine

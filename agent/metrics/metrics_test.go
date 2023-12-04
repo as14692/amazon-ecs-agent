@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/as14692/amazon-ecs-agent/agent/config"
+	"github.com/aws/amazon-ecs-agent/agent/config"
 	"github.com/prometheus/client_golang/prometheus"
 	dto "github.com/prometheus/client_model/go"
 	"github.com/stretchr/testify/assert"

@@ -20,19 +20,19 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/as14692/amazon-ecs-agent/agent/ecscni"
-	"github.com/as14692/amazon-ecs-agent/agent/utils"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger/field"
+	"github.com/aws/amazon-ecs-agent/agent/ecscni"
+	"github.com/aws/amazon-ecs-agent/agent/utils"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/logger/field"
 	"github.com/containernetworking/cni/libcni"
 
-	"github.com/as14692/amazon-ecs-agent/agent/config"
-	"github.com/as14692/amazon-ecs-agent/agent/taskresource"
-	"github.com/as14692/amazon-ecs-agent/agent/taskresource/fsxwindowsfileserver"
-	resourcetype "github.com/as14692/amazon-ecs-agent/agent/taskresource/types"
-	taskresourcevolume "github.com/as14692/amazon-ecs-agent/agent/taskresource/volume"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/credentials"
-	ni "github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	"github.com/aws/amazon-ecs-agent/agent/config"
+	"github.com/aws/amazon-ecs-agent/agent/taskresource"
+	"github.com/aws/amazon-ecs-agent/agent/taskresource/fsxwindowsfileserver"
+	resourcetype "github.com/aws/amazon-ecs-agent/agent/taskresource/types"
+	taskresourcevolume "github.com/aws/amazon-ecs-agent/agent/taskresource/volume"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/credentials"
+	ni "github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
 	"github.com/cihub/seelog"
 	dockercontainer "github.com/docker/docker/api/types/container"
 	"github.com/pkg/errors"
@@ -98,7 +98,7 @@ func (task *Task) platformHostConfigOverride(hostConfig *dockercontainer.HostCon
 		// if CPU percent is too low, we set it to the minimum(linux and some windows tasks).
 		// if the CPU is explicitly set to zero or not set at all, and CPU unbounded
 		// tasks are allowed for windows, let CPU percent be zero.
-		// this is a workaround to allow CPU unbounded tasks(https://github.com/as14692/amazon-ecs-agent/issues/1127)
+		// this is a workaround to allow CPU unbounded tasks(https://github.com/aws/amazon-ecs-agent/issues/1127)
 		hostConfig.CPUPercent = minimumCPUPercent
 	}
 	hostConfig.CPUShares = 0

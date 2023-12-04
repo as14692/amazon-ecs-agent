@@ -29,11 +29,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/as14692/amazon-ecs-agent/agent/data"
-	"github.com/as14692/amazon-ecs-agent/agent/engine"
-	"github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
-	"github.com/as14692/amazon-ecs-agent/agent/sighandlers/exitcodes"
-	apierrors "github.com/as14692/amazon-ecs-agent/ecs-agent/api/errors"
+	"github.com/aws/amazon-ecs-agent/agent/data"
+	"github.com/aws/amazon-ecs-agent/agent/engine"
+	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
+	"github.com/aws/amazon-ecs-agent/agent/sighandlers/exitcodes"
+	apierrors "github.com/aws/amazon-ecs-agent/ecs-agent/api/errors"
 
 	"github.com/cihub/seelog"
 	bolt "go.etcd.io/bbolt"

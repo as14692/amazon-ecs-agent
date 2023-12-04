@@ -20,7 +20,7 @@ import (
 	"errors"
 	"testing"
 
-	mock_fsx "github.com/as14692/amazon-ecs-agent/agent/fsx/mocks"
+	mock_fsx "github.com/aws/amazon-ecs-agent/agent/fsx/mocks"
 	"github.com/golang/mock/gomock"
 
 	"github.com/aws/aws-sdk-go/aws"

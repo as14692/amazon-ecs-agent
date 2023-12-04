@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	mock_ecs "github.com/as14692/amazon-ecs-agent/ecs-agent/api/ecs/mocks"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/async"
+	mock_ecs "github.com/aws/amazon-ecs-agent/ecs-agent/api/ecs/mocks"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/async"
 	"github.com/stretchr/testify/assert"
 )
 

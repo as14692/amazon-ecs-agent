@@ -14,8 +14,8 @@
 package ecsclient
 
 import (
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/api/ecs"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/async"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/api/ecs"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/async"
 )
 
 // ECSClientOption allows for configuration of an ecsClient.

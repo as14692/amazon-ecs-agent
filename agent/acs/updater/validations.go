@@ -16,7 +16,7 @@ package updater
 import (
 	"errors"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
 )
 
 func validateUpdateInfo(updateInfo *ecsacs.UpdateInfo) error {

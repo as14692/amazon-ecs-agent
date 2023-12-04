@@ -16,7 +16,7 @@ package ecscni
 import (
 	"fmt"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/appmesh"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/appmesh"
 )
 
 // AppMeshConfig contains the information needed to invoke the appmesh CNI plugin.

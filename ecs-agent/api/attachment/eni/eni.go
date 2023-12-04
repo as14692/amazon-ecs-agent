@@ -19,9 +19,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
-	loggerfield "github.com/as14692/amazon-ecs-agent/ecs-agent/logger/field"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/acs/model/ecsacs"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
+	loggerfield "github.com/aws/amazon-ecs-agent/ecs-agent/logger/field"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/pkg/errors"
 )

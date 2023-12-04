@@ -22,11 +22,11 @@ import (
 	"path/filepath"
 	"time"
 
-	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
-	taskresourcevolume "github.com/as14692/amazon-ecs-agent/agent/taskresource/volume"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/csiclient"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/tcs/model/ecstcs"
+	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
+	taskresourcevolume "github.com/aws/amazon-ecs-agent/agent/taskresource/volume"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/csiclient"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/tcs/model/ecstcs"
 
 	"github.com/aws/aws-sdk-go/aws"
 )

@@ -16,9 +16,9 @@ package data
 import (
 	"encoding/json"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/data"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/metrics"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/tasknetworkconfig"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/data"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/metrics"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/tasknetworkconfig"
 
 	bolt "go.etcd.io/bbolt"
 )

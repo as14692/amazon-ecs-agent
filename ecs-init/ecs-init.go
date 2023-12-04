@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-init/config"
-	"github.com/as14692/amazon-ecs-agent/ecs-init/engine"
-	"github.com/as14692/amazon-ecs-agent/ecs-init/version"
+	"github.com/aws/amazon-ecs-agent/ecs-init/config"
+	"github.com/aws/amazon-ecs-agent/ecs-init/engine"
+	"github.com/aws/amazon-ecs-agent/ecs-init/version"
 
 	log "github.com/cihub/seelog"
 )

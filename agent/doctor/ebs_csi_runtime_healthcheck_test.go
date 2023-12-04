@@ -19,8 +19,8 @@ import (
 	"errors"
 	"testing"
 
-	mock_csiclient "github.com/as14692/amazon-ecs-agent/ecs-agent/csiclient/mocks"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/doctor"
+	mock_csiclient "github.com/aws/amazon-ecs-agent/ecs-agent/csiclient/mocks"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/doctor"
 	"github.com/container-storage-interface/spec/lib/go/csi"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"

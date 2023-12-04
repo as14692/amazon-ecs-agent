@@ -20,7 +20,7 @@ import (
 	"errors"
 	"strings"
 
-	resourcestatus "github.com/as14692/amazon-ecs-agent/agent/taskresource/status"
+	resourcestatus "github.com/aws/amazon-ecs-agent/agent/taskresource/status"
 )
 
 // CgroupStatus defines resource statuses for cgroups

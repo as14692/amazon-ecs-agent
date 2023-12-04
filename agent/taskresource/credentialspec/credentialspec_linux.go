@@ -26,18 +26,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/as14692/amazon-ecs-agent/agent/asm"
-	asmfactory "github.com/as14692/amazon-ecs-agent/agent/asm/factory"
-	"github.com/as14692/amazon-ecs-agent/agent/s3"
-	"github.com/as14692/amazon-ecs-agent/agent/ssm"
-	"github.com/as14692/amazon-ecs-agent/agent/utils"
+	"github.com/aws/amazon-ecs-agent/agent/asm"
+	asmfactory "github.com/aws/amazon-ecs-agent/agent/asm/factory"
+	"github.com/aws/amazon-ecs-agent/agent/s3"
+	"github.com/aws/amazon-ecs-agent/agent/ssm"
+	"github.com/aws/amazon-ecs-agent/agent/utils"
 	"github.com/aws/aws-sdk-go/aws/arn"
 	"github.com/cihub/seelog"
 
-	s3factory "github.com/as14692/amazon-ecs-agent/agent/s3/factory"
-	ssmfactory "github.com/as14692/amazon-ecs-agent/agent/ssm/factory"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/credentials"
-	credentialsfetcherclient "github.com/as14692/amazon-ecs-agent/ecs-agent/gmsacredclient"
+	s3factory "github.com/aws/amazon-ecs-agent/agent/s3/factory"
+	ssmfactory "github.com/aws/amazon-ecs-agent/agent/ssm/factory"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/credentials"
+	credentialsfetcherclient "github.com/aws/amazon-ecs-agent/ecs-agent/gmsacredclient"
 	"github.com/pkg/errors"
 )
 

@@ -20,8 +20,8 @@ import (
 	"net/http"
 	"testing"
 
-	mock_http "github.com/as14692/amazon-ecs-agent/agent/handlers/mocks/http"
-	mock_utils "github.com/as14692/amazon-ecs-agent/agent/utils/mocks"
+	mock_http "github.com/aws/amazon-ecs-agent/agent/handlers/mocks/http"
+	mock_utils "github.com/aws/amazon-ecs-agent/agent/utils/mocks"
 	"github.com/golang/mock/gomock"
 	"github.com/pkg/errors"
 )

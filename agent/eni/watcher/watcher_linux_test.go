@@ -30,17 +30,17 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/vishvananda/netlink"
 
-	"github.com/as14692/amazon-ecs-agent/agent/api"
-	"github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
-	"github.com/as14692/amazon-ecs-agent/agent/statechange"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/api/attachment"
-	ni "github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	"github.com/aws/amazon-ecs-agent/agent/api"
+	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
+	"github.com/aws/amazon-ecs-agent/agent/statechange"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/api/attachment"
+	ni "github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
 
-	mock_dockerstate "github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate/mocks"
-	"github.com/as14692/amazon-ecs-agent/agent/eni/netlinkwrapper"
-	mock_netlinkwrapper "github.com/as14692/amazon-ecs-agent/agent/eni/netlinkwrapper/mocks"
-	"github.com/as14692/amazon-ecs-agent/agent/eni/udevwrapper"
-	mock_udevwrapper "github.com/as14692/amazon-ecs-agent/agent/eni/udevwrapper/mocks"
+	mock_dockerstate "github.com/aws/amazon-ecs-agent/agent/engine/dockerstate/mocks"
+	"github.com/aws/amazon-ecs-agent/agent/eni/netlinkwrapper"
+	mock_netlinkwrapper "github.com/aws/amazon-ecs-agent/agent/eni/netlinkwrapper/mocks"
+	"github.com/aws/amazon-ecs-agent/agent/eni/udevwrapper"
+	mock_udevwrapper "github.com/aws/amazon-ecs-agent/agent/eni/udevwrapper/mocks"
 )
 
 const (

@@ -34,19 +34,19 @@ import (
 	"github.com/cihub/seelog"
 	"github.com/docker/docker/api/types"
 
-	"github.com/as14692/amazon-ecs-agent/agent/api"
-	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
-	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
-	"github.com/as14692/amazon-ecs-agent/agent/dockerclient"
-	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi"
-	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/sdkclientfactory"
-	"github.com/as14692/amazon-ecs-agent/agent/statechange"
-	"github.com/as14692/amazon-ecs-agent/agent/taskresource"
-	taskresourcevolume "github.com/as14692/amazon-ecs-agent/agent/taskresource/volume"
-	"github.com/as14692/amazon-ecs-agent/agent/utils"
-	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
-	apitaskstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/task/status"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/utils/ttime"
+	"github.com/aws/amazon-ecs-agent/agent/api"
+	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
+	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
+	"github.com/aws/amazon-ecs-agent/agent/dockerclient"
+	"github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi"
+	"github.com/aws/amazon-ecs-agent/agent/dockerclient/sdkclientfactory"
+	"github.com/aws/amazon-ecs-agent/agent/statechange"
+	"github.com/aws/amazon-ecs-agent/agent/taskresource"
+	taskresourcevolume "github.com/aws/amazon-ecs-agent/agent/taskresource/volume"
+	"github.com/aws/amazon-ecs-agent/agent/utils"
+	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
+	apitaskstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/task/status"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/utils/ttime"
 	"github.com/aws/aws-sdk-go/aws"
 
 	"github.com/containerd/cgroups/v3"
@@ -70,7 +70,7 @@ var (
 // Starting from Docker version 20.10.6, a behavioral change was introduced in docker container port bindings,
 // where both IPv4 and IPv6 port bindings will be exposed.
 // To mitigate this issue, Agent introduced an environment variable ECS_EXCLUDE_IPV6_PORTBINDING,
-// which is true by default in the [PR#3025](https://github.com/as14692/amazon-ecs-agent/pull/3025).
+// which is true by default in the [PR#3025](https://github.com/aws/amazon-ecs-agent/pull/3025).
 // However, the PR does not modify port bindings in the container state change object, it only filters out IPv6 port
 // bindings while building the container state change payload. Thus the invalid IPv6 port bindings still exists
 // in ContainerStateChange, and need to be filtered out in this integration test.
@@ -675,7 +675,7 @@ func createTestHostVolumeMountTask(tmpPath string) *apitask.Task {
 }
 
 // This integ test is meant to validate the docker assumptions related to
-// https://github.com/as14692/amazon-ecs-agent/issues/261
+// https://github.com/aws/amazon-ecs-agent/issues/261
 // Namely, this test verifies that Docker does emit a 'die' event after an OOM
 // event if the init dies.
 // Note: Your kernel must support swap limits in order for this test to run.

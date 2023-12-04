@@ -23,7 +23,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/daemonimages/csidriver/mounter"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/daemonimages/csidriver/mounter"
 	mountutils "k8s.io/mount-utils"
 )
 

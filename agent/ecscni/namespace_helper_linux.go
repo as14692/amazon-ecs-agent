@@ -21,7 +21,7 @@ import (
 
 	cniTypesCurrent "github.com/containernetworking/cni/pkg/types/100"
 
-	ni "github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	ni "github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
 )
 
 // ConfigureTaskNamespaceRouting executes the commands required for setting up appropriate routing inside task namespace.

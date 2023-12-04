@@ -24,10 +24,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/as14692/amazon-ecs-agent/agent/taskresource"
-	cgroupres "github.com/as14692/amazon-ecs-agent/agent/taskresource/cgroup"
-	"github.com/as14692/amazon-ecs-agent/agent/taskresource/firelens"
-	resourcestatus "github.com/as14692/amazon-ecs-agent/agent/taskresource/status"
+	"github.com/aws/amazon-ecs-agent/agent/taskresource"
+	cgroupres "github.com/aws/amazon-ecs-agent/agent/taskresource/cgroup"
+	"github.com/aws/amazon-ecs-agent/agent/taskresource/firelens"
+	resourcestatus "github.com/aws/amazon-ecs-agent/agent/taskresource/status"
 )
 
 func TestUnmarshalResourcesMap(t *testing.T) {

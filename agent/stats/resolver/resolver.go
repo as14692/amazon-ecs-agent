@@ -14,11 +14,11 @@
 package resolver
 
 import (
-	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
-	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
+	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
+	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
 )
 
-//go:generate mockgen -destination=mock/$GOFILE -copyright_file=../../../scripts/copyright_file github.com/as14692/amazon-ecs-agent/agent/stats/resolver ContainerMetadataResolver
+//go:generate mockgen -destination=mock/$GOFILE -copyright_file=../../../scripts/copyright_file github.com/aws/amazon-ecs-agent/agent/stats/resolver ContainerMetadataResolver
 
 // ContainerMetadataResolver defines methods to resolve meta-data.
 type ContainerMetadataResolver interface {

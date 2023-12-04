@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	apierrors "github.com/as14692/amazon-ecs-agent/ecs-agent/api/errors"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/utils/ttime"
-	mock_ttime "github.com/as14692/amazon-ecs-agent/ecs-agent/utils/ttime/mocks"
+	apierrors "github.com/aws/amazon-ecs-agent/ecs-agent/api/errors"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/utils/ttime"
+	mock_ttime "github.com/aws/amazon-ecs-agent/ecs-agent/utils/ttime/mocks"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 )

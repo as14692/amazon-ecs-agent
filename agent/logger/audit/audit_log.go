@@ -17,10 +17,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/as14692/amazon-ecs-agent/agent/config"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
-	auditinterface "github.com/as14692/amazon-ecs-agent/ecs-agent/logger/audit"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger/audit/request"
+	"github.com/aws/amazon-ecs-agent/agent/config"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
+	auditinterface "github.com/aws/amazon-ecs-agent/ecs-agent/logger/audit"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/logger/audit/request"
 )
 
 type InfoLogger interface {

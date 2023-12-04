@@ -19,12 +19,12 @@ import (
 	"sync"
 	"time"
 
-	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
-	"github.com/as14692/amazon-ecs-agent/agent/api/serviceconnect"
-	"github.com/as14692/amazon-ecs-agent/agent/api/task"
-	resourcetype "github.com/as14692/amazon-ecs-agent/agent/taskresource/types"
-	apitaskstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/task/status"
-	nlappmesh "github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/appmesh"
+	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
+	"github.com/aws/amazon-ecs-agent/agent/api/serviceconnect"
+	"github.com/aws/amazon-ecs-agent/agent/api/task"
+	resourcetype "github.com/aws/amazon-ecs-agent/agent/taskresource/types"
+	apitaskstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/task/status"
+	nlappmesh "github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/appmesh"
 )
 
 // Task_1_0_0 is "the original model" before model transformer is created.

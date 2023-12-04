@@ -20,9 +20,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/as14692/amazon-ecs-agent/agent/dockerclient"
-	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/sdkclient"
-	mock_sdkclient "github.com/as14692/amazon-ecs-agent/agent/dockerclient/sdkclient/mocks"
+	"github.com/aws/amazon-ecs-agent/agent/dockerclient"
+	"github.com/aws/amazon-ecs-agent/agent/dockerclient/sdkclient"
+	mock_sdkclient "github.com/aws/amazon-ecs-agent/agent/dockerclient/sdkclient/mocks"
 	docker "github.com/docker/docker/api/types"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"

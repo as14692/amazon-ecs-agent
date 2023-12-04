@@ -17,7 +17,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/as14692/amazon-ecs-agent/agent/utils/oswrapper"
+	"github.com/aws/amazon-ecs-agent/agent/utils/oswrapper"
 )
 
 // IOUtil wraps 'io/util' methods for testing

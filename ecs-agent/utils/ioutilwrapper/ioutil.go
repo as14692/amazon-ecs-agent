@@ -16,7 +16,7 @@ package ioutilwrapper
 import (
 	"os"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/utils/oswrapper"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/utils/oswrapper"
 )
 
 // IOUtil wraps 'os' IO methods for testing

@@ -16,10 +16,10 @@ package data
 import (
 	"encoding/json"
 
-	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
-	"github.com/as14692/amazon-ecs-agent/agent/utils"
-	"github.com/as14692/amazon-ecs-agent/agent/version"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
+	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
+	"github.com/aws/amazon-ecs-agent/agent/utils"
+	"github.com/aws/amazon-ecs-agent/agent/version"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
 
 	"github.com/pkg/errors"
 	bolt "go.etcd.io/bbolt"

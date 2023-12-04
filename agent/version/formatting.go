@@ -16,7 +16,7 @@ package version
 import (
 	"fmt"
 
-	"github.com/as14692/amazon-ecs-agent/agent/sighandlers/exitcodes"
+	"github.com/aws/amazon-ecs-agent/agent/sighandlers/exitcodes"
 )
 
 // PrintVersions prints the version information on stdout as a multi-line

@@ -116,7 +116,7 @@ PS C:\> Initialize-ECSAgent -Cluster 'windows' -EnableTaskIAMRole -Version $agen
 ECS Agent can also be built locally from source on a linux machine. Use the following steps to build ECS Agent
 * Get ECS Agent source
 ```
-git clone https://github.com/as14692/amazon-ecs-agent.git
+git clone https://github.com/aws/amazon-ecs-agent.git
 ```
 * Build Agent image using ```release-agent``` make target
 ```
@@ -126,7 +126,7 @@ This installs the required build dependencies, builds ECS Agent image and saves 
 ```
 docker load < ecs-agent-v${AGENT_VERSION}.tar
 ```
-Follow the instructions [above](https://github.com/as14692/amazon-ecs-agent#on-other-linux-amis) to continue with the installation
+Follow the instructions [above](https://github.com/aws/amazon-ecs-agent#on-other-linux-amis) to continue with the installation
 
 ### Build and run standalone (Linux)
 
@@ -157,7 +157,7 @@ The following scripts are available to help develop the Amazon ECS Container Age
 
 ### Build ECS-Init Package (Linux)
 
-ECS-Init package can also be built as a deb or rpm depending on the linux system you are running. Follow instructions at [generic-deb-integrated](https://github.com/as14692/amazon-ecs-agent/tree/master/packaging/generic-deb-integrated/debian) or [generic-rpm-integrated](https://github.com/as14692/amazon-ecs-agent/tree/master/packaging/generic-rpm-integrated) to build and install ECS Agent with Init using deb or rpm.
+ECS-Init package can also be built as a deb or rpm depending on the linux system you are running. Follow instructions at [generic-deb-integrated](https://github.com/aws/amazon-ecs-agent/tree/master/packaging/generic-deb-integrated/debian) or [generic-rpm-integrated](https://github.com/aws/amazon-ecs-agent/tree/master/packaging/generic-rpm-integrated) to build and install ECS Agent with Init using deb or rpm.
 
 ## Advanced Usage
 
@@ -176,7 +176,7 @@ additional details on each available environment variable.
 | `ECS_RESERVED_PORTS` | `[22, 80, 5000, 8080]` | An array of ports that should be marked as unavailable for scheduling on this container instance. | `[22, 2375, 2376, 51678, 51679]` | `[53, 135, 139, 445, 2375, 2376, 3389, 5985, 5986, 51678, 51679]`
 | `ECS_RESERVED_PORTS_UDP` | `[53, 123]` | An array of UDP ports that should be marked as unavailable for scheduling on this container instance. | `[]` | `[]` |
 | `ECS_ENGINE_AUTH_TYPE`     |  "docker" &#124; "dockercfg" | The type of auth data that is stored in the `ECS_ENGINE_AUTH_DATA` key. | | |
-| `ECS_ENGINE_AUTH_DATA`     | See the [dockerauth documentation](https://godoc.org/github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerauth) | Docker [auth data](https://godoc.org/github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerauth) formatted as defined by `ECS_ENGINE_AUTH_TYPE`. | | |
+| `ECS_ENGINE_AUTH_DATA`     | See the [dockerauth documentation](https://godoc.org/github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerauth) | Docker [auth data](https://godoc.org/github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerauth) formatted as defined by `ECS_ENGINE_AUTH_TYPE`. | | |
 | `AWS_DEFAULT_REGION` | &lt;us-west-2&gt;&#124;&lt;us-east-1&gt;&#124;&hellip; | The region to be used in API requests as well as to infer the correct backend host. | Taken from Amazon EC2 instance metadata. | Taken from Amazon EC2 instance metadata. |
 | `AWS_ACCESS_KEY_ID` | AKIDEXAMPLE             | The [access key](http://docs.aws.amazon.com/general/latest/gr/aws-security-credentials.html) used by the agent for all calls. | Taken from Amazon EC2 instance metadata. | Taken from Amazon EC2 instance metadata. |
 | `AWS_SECRET_ACCESS_KEY` | EXAMPLEKEY | The [secret key](http://docs.aws.amazon.com/general/latest/gr/aws-security-credentials.html) used by the agent for all calls. | Taken from Amazon EC2 instance metadata. | Taken from Amazon EC2 instance metadata. |
@@ -306,7 +306,7 @@ The following targets are available. Each may be run with `make <target>`.
 ## Contributing
 
 Contributions and feedback are welcome! Proposals and pull requests will be considered and responded to. For more
-information, see the [CONTRIBUTING.md](https://github.com/as14692/amazon-ecs-agent/blob/master/CONTRIBUTING.md) file.
+information, see the [CONTRIBUTING.md](https://github.com/aws/amazon-ecs-agent/blob/master/CONTRIBUTING.md) file.
 
 If you have a bug/and issue around the behavior of the ECS agent, please open it here.
 

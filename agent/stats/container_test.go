@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
-	"github.com/as14692/amazon-ecs-agent/agent/dockerclient"
-	mock_dockerapi "github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi/mocks"
-	mock_resolver "github.com/as14692/amazon-ecs-agent/agent/stats/resolver/mock"
-	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
+	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
+	"github.com/aws/amazon-ecs-agent/agent/dockerclient"
+	mock_dockerapi "github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi/mocks"
+	mock_resolver "github.com/aws/amazon-ecs-agent/agent/stats/resolver/mock"
+	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
 	"github.com/docker/docker/api/types"
 	"github.com/golang/mock/gomock"
 )

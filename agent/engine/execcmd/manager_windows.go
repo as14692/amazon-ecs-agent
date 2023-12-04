@@ -18,7 +18,7 @@ package execcmd
 import (
 	"path/filepath"
 
-	"github.com/as14692/amazon-ecs-agent/agent/config"
+	"github.com/aws/amazon-ecs-agent/agent/config"
 )
 
 var (

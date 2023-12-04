@@ -17,10 +17,10 @@
 package pause
 
 import (
-	"github.com/as14692/amazon-ecs-agent/agent/utils/loader"
+	"github.com/aws/amazon-ecs-agent/agent/utils/loader"
 
-	"github.com/as14692/amazon-ecs-agent/agent/config"
-	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi"
+	"github.com/aws/amazon-ecs-agent/agent/config"
+	"github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi"
 )
 
 // This method is used to inspect the presence of the pause image. If the image has not been loaded then we return false.

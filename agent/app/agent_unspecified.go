@@ -19,10 +19,10 @@ package app
 import (
 	"errors"
 
-	"github.com/as14692/amazon-ecs-agent/agent/engine"
-	"github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/api/ecs/model/ecs"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/credentials"
+	"github.com/aws/amazon-ecs-agent/agent/engine"
+	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/api/ecs/model/ecs"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/credentials"
 	"github.com/cihub/seelog"
 )
 

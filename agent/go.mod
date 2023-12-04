@@ -1,9 +1,9 @@
-module github.com/as14692/amazon-ecs-agent/agent
+module github.com/aws/amazon-ecs-agent/agent
 
 go 1.19
 
 require (
-	github.com/as14692/amazon-ecs-agent/ecs-agent v0.0.0
+	github.com/aws/amazon-ecs-agent/ecs-agent v0.0.0
 	github.com/aws/aws-sdk-go v1.44.173
 	github.com/awslabs/go-config-generator-for-fluentd-and-fluentbit v0.0.0-20210308162251-8959c62cb8f9
 	github.com/cihub/seelog v0.0.0-20170130134532-f561c5e57575
@@ -81,4 +81,4 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 )
 
-replace github.com/as14692/amazon-ecs-agent/ecs-agent => ../ecs-agent
+replace github.com/aws/amazon-ecs-agent/ecs-agent => ../ecs-agent

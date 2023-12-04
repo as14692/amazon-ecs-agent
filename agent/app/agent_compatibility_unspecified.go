@@ -16,7 +16,7 @@
 
 package app
 
-import "github.com/as14692/amazon-ecs-agent/agent/engine"
+import "github.com/aws/amazon-ecs-agent/agent/engine"
 
 func (agent *ecsAgent) checkCompatibility(engine engine.TaskEngine) error {
 	return nil

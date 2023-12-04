@@ -16,12 +16,12 @@ package task
 import (
 	"encoding/json"
 
-	"github.com/as14692/amazon-ecs-agent/agent/config"
-	"github.com/as14692/amazon-ecs-agent/agent/taskresource"
-	"github.com/as14692/amazon-ecs-agent/agent/taskresource/fsxwindowsfileserver"
-	taskresourcetypes "github.com/as14692/amazon-ecs-agent/agent/taskresource/types"
-	taskresourcevolume "github.com/as14692/amazon-ecs-agent/agent/taskresource/volume"
-	apiresource "github.com/as14692/amazon-ecs-agent/ecs-agent/api/attachment/resource"
+	"github.com/aws/amazon-ecs-agent/agent/config"
+	"github.com/aws/amazon-ecs-agent/agent/taskresource"
+	"github.com/aws/amazon-ecs-agent/agent/taskresource/fsxwindowsfileserver"
+	taskresourcetypes "github.com/aws/amazon-ecs-agent/agent/taskresource/types"
+	taskresourcevolume "github.com/aws/amazon-ecs-agent/agent/taskresource/volume"
+	apiresource "github.com/aws/amazon-ecs-agent/ecs-agent/api/attachment/resource"
 
 	"github.com/cihub/seelog"
 	"github.com/pkg/errors"

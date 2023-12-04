@@ -17,7 +17,7 @@ import (
 	"fmt"
 	"time"
 
-	ecrapi "github.com/as14692/amazon-ecs-agent/agent/ecr/model/ecr"
+	ecrapi "github.com/aws/amazon-ecs-agent/agent/ecr/model/ecr"
 	"github.com/aws/aws-sdk-go/aws"
 	log "github.com/cihub/seelog"
 )

@@ -18,7 +18,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-init/exec"
+	"github.com/aws/amazon-ecs-agent/ecs-init/exec"
 	log "github.com/cihub/seelog"
 )
 

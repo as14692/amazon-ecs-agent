@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
-	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
-	apitaskstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/task/status"
-	ni "github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/tmds/handlers/response"
+	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
+	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
+	apitaskstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/task/status"
+	ni "github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/tmds/handlers/response"
 
 	"github.com/docker/docker/api/types"
 	"github.com/stretchr/testify/assert"

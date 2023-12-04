@@ -26,10 +26,10 @@ import (
 	"strconv"
 	"strings"
 
-	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
+	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
 	dockercontainer "github.com/docker/docker/api/types/container"
 
-	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
 	"github.com/pborman/uuid"
 )
 

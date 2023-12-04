@@ -18,8 +18,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/as14692/amazon-ecs-agent/agent/app"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
+	"github.com/aws/amazon-ecs-agent/agent/app"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
 )
 
 func init() {

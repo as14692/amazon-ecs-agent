@@ -21,14 +21,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/as14692/amazon-ecs-agent/agent/eni/iphelperwrapper"
-	"github.com/as14692/amazon-ecs-agent/agent/eni/networkutils"
+	"github.com/aws/amazon-ecs-agent/agent/eni/iphelperwrapper"
+	"github.com/aws/amazon-ecs-agent/agent/eni/networkutils"
 
 	log "github.com/cihub/seelog"
 	"github.com/pkg/errors"
 
-	"github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
-	"github.com/as14692/amazon-ecs-agent/agent/statechange"
+	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
+	"github.com/aws/amazon-ecs-agent/agent/statechange"
 )
 
 const (

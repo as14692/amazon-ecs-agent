@@ -31,10 +31,10 @@ The following APIs will be initially supported:
 
 |Request Path|Response|Response Schema|
 |----|----|----|
-|`GET 169.254.170.2/v2/metadata`| Task metadata | https://github.com/as14692/amazon-ecs-agent/blob/f79e4ca8f2d01b7e13e393fe836f10b06ede8d16/agent/handlers/types/v2/response.go#L28|
-|`GET 169.254.170.2/v2/metadata/<container-id>`| Container metadata | https://github.com/as14692/amazon-ecs-agent/blob/f79e4ca8f2d01b7e13e393fe836f10b06ede8d16/agent/handlers/types/v2/response.go#L44|
+|`GET 169.254.170.2/v2/metadata`| Task metadata | https://github.com/aws/amazon-ecs-agent/blob/f79e4ca8f2d01b7e13e393fe836f10b06ede8d16/agent/handlers/types/v2/response.go#L28|
+|`GET 169.254.170.2/v2/metadata/<container-id>`| Container metadata | https://github.com/aws/amazon-ecs-agent/blob/f79e4ca8f2d01b7e13e393fe836f10b06ede8d16/agent/handlers/types/v2/response.go#L44|
 |`GET 169.254.170.2/v2/stats`| Task stats (Contains stats for all containers in the task) | Map of containers to container stats as per https://docs.docker.com/engine/api/v1.30/#operation/ContainerStats|
 |`GET 169.254.170.2/v2/stats/<container-id>`| Container stats | Container stats as per https://docs.docker.com/engine/api/v1.30/#operation/ContainerStats|
 
 ### Sample application
-A sample application for querying this endpoint can be found [here](https://github.com/as14692/amazon-ecs-agent/blob/0d25cecc21513c8b411361295d79012f239be744/misc/taskmetadata-validator/taskmetadata-validator.go)
+A sample application for querying this endpoint can be found [here](https://github.com/aws/amazon-ecs-agent/blob/0d25cecc21513c8b411361295d79012f239be744/misc/taskmetadata-validator/taskmetadata-validator.go)

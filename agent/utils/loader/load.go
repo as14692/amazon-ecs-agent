@@ -18,12 +18,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger/field"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/logger/field"
 
-	"github.com/as14692/amazon-ecs-agent/agent/config"
-	"github.com/as14692/amazon-ecs-agent/agent/dockerclient"
-	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
+	"github.com/aws/amazon-ecs-agent/agent/config"
+	"github.com/aws/amazon-ecs-agent/agent/dockerclient"
+	"github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
 	"github.com/docker/docker/api/types"
 )
 

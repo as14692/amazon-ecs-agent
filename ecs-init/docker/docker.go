@@ -24,9 +24,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-init/backoff"
-	"github.com/as14692/amazon-ecs-agent/ecs-init/config"
-	"github.com/as14692/amazon-ecs-agent/ecs-init/gpu"
+	"github.com/aws/amazon-ecs-agent/ecs-init/backoff"
+	"github.com/aws/amazon-ecs-agent/ecs-init/config"
+	"github.com/aws/amazon-ecs-agent/ecs-init/gpu"
 
 	log "github.com/cihub/seelog"
 	godocker "github.com/fsouza/go-dockerclient"

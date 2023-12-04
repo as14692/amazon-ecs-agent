@@ -18,8 +18,8 @@ package taskprotection
 import (
 	"testing"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/api/ecs"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/credentials"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/api/ecs"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/credentials"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 )

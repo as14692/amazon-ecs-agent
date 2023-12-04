@@ -13,7 +13,7 @@
 
 package tasknetworkconfig
 
-import ni "github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+import ni "github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
 
 const (
 	primaryNetNSName       = "primary-netns"

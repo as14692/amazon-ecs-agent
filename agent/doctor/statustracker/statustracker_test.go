@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/doctor"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/doctor"
 	"github.com/stretchr/testify/assert"
 )
 

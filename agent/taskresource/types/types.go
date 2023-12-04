@@ -17,16 +17,16 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/as14692/amazon-ecs-agent/agent/taskresource"
-	asmauthres "github.com/as14692/amazon-ecs-agent/agent/taskresource/asmauth"
-	asmsecretres "github.com/as14692/amazon-ecs-agent/agent/taskresource/asmsecret"
-	cgroupres "github.com/as14692/amazon-ecs-agent/agent/taskresource/cgroup"
-	"github.com/as14692/amazon-ecs-agent/agent/taskresource/credentialspec"
-	"github.com/as14692/amazon-ecs-agent/agent/taskresource/envFiles"
-	"github.com/as14692/amazon-ecs-agent/agent/taskresource/firelens"
-	"github.com/as14692/amazon-ecs-agent/agent/taskresource/fsxwindowsfileserver"
-	ssmsecretres "github.com/as14692/amazon-ecs-agent/agent/taskresource/ssmsecret"
-	"github.com/as14692/amazon-ecs-agent/agent/taskresource/volume"
+	"github.com/aws/amazon-ecs-agent/agent/taskresource"
+	asmauthres "github.com/aws/amazon-ecs-agent/agent/taskresource/asmauth"
+	asmsecretres "github.com/aws/amazon-ecs-agent/agent/taskresource/asmsecret"
+	cgroupres "github.com/aws/amazon-ecs-agent/agent/taskresource/cgroup"
+	"github.com/aws/amazon-ecs-agent/agent/taskresource/credentialspec"
+	"github.com/aws/amazon-ecs-agent/agent/taskresource/envFiles"
+	"github.com/aws/amazon-ecs-agent/agent/taskresource/firelens"
+	"github.com/aws/amazon-ecs-agent/agent/taskresource/fsxwindowsfileserver"
+	ssmsecretres "github.com/aws/amazon-ecs-agent/agent/taskresource/ssmsecret"
+	"github.com/aws/amazon-ecs-agent/agent/taskresource/volume"
 )
 
 const (

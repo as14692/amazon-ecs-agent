@@ -22,8 +22,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/as14692/amazon-ecs-agent/agent/utils/oswrapper"
-	mock_oswrapper "github.com/as14692/amazon-ecs-agent/agent/utils/oswrapper/mocks"
+	"github.com/aws/amazon-ecs-agent/agent/utils/oswrapper"
+	mock_oswrapper "github.com/aws/amazon-ecs-agent/agent/utils/oswrapper/mocks"
 
 	"github.com/stretchr/testify/assert"
 )

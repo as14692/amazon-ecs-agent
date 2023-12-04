@@ -22,12 +22,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/as14692/amazon-ecs-agent/agent/config"
-	"github.com/as14692/amazon-ecs-agent/agent/engine"
-	handlersutils "github.com/as14692/amazon-ecs-agent/agent/handlers/utils"
-	v1 "github.com/as14692/amazon-ecs-agent/agent/handlers/v1"
-	logginghandler "github.com/as14692/amazon-ecs-agent/ecs-agent/tmds/logging"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/utils/retry"
+	"github.com/aws/amazon-ecs-agent/agent/config"
+	"github.com/aws/amazon-ecs-agent/agent/engine"
+	handlersutils "github.com/aws/amazon-ecs-agent/agent/handlers/utils"
+	v1 "github.com/aws/amazon-ecs-agent/agent/handlers/v1"
+	logginghandler "github.com/aws/amazon-ecs-agent/ecs-agent/tmds/logging"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/utils/retry"
 	"github.com/cihub/seelog"
 )
 

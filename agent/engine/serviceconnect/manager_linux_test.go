@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
-	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
-	"github.com/as14692/amazon-ecs-agent/agent/api/serviceconnect"
+	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
+	"github.com/aws/amazon-ecs-agent/agent/api/serviceconnect"
 	dockercontainer "github.com/docker/docker/api/types/container"
 	"github.com/stretchr/testify/assert"
 )

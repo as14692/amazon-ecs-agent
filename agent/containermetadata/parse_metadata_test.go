@@ -19,7 +19,7 @@ package containermetadata
 import (
 	"testing"
 
-	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
+	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
 
 	"github.com/docker/docker/api/types"
 	dockercontainer "github.com/docker/docker/api/types/container"

@@ -20,9 +20,9 @@ import (
 	"context"
 	"os"
 
-	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/sdkclientfactory"
-	ecsengine "github.com/as14692/amazon-ecs-agent/agent/engine"
-	"github.com/as14692/amazon-ecs-agent/agent/utils"
+	"github.com/aws/amazon-ecs-agent/agent/dockerclient/sdkclientfactory"
+	ecsengine "github.com/aws/amazon-ecs-agent/agent/engine"
+	"github.com/aws/amazon-ecs-agent/agent/utils"
 
 	sdkClient "github.com/docker/docker/client"
 )

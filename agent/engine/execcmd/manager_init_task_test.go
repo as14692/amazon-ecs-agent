@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"testing"
 
-	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
+	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
 	"github.com/stretchr/testify/assert"
 )
 

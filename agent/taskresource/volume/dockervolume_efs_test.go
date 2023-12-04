@@ -19,7 +19,7 @@ package volume
 import (
 	"testing"
 
-	"github.com/as14692/amazon-ecs-agent/agent/config"
+	"github.com/aws/amazon-ecs-agent/agent/config"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/as14692/amazon-ecs-agent/agent/api/task"
-	"github.com/as14692/amazon-ecs-agent/agent/eni/networkutils"
-	"github.com/as14692/amazon-ecs-agent/agent/stats/resolver"
+	"github.com/aws/amazon-ecs-agent/agent/api/task"
+	"github.com/aws/amazon-ecs-agent/agent/eni/networkutils"
+	"github.com/aws/amazon-ecs-agent/agent/stats/resolver"
 
 	dockerstats "github.com/docker/docker/api/types"
 	"github.com/pkg/errors"

@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
-	"github.com/as14692/amazon-ecs-agent/agent/api/serviceconnect"
-	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
-	execcmd "github.com/as14692/amazon-ecs-agent/agent/engine/execcmd"
-	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
-	apitaskstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/task/status"
+	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
+	"github.com/aws/amazon-ecs-agent/agent/api/serviceconnect"
+	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
+	execcmd "github.com/aws/amazon-ecs-agent/agent/engine/execcmd"
+	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
+	apitaskstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/task/status"
 
 	"github.com/stretchr/testify/assert"
 )

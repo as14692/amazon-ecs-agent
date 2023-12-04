@@ -19,11 +19,11 @@ package v2
 import (
 	"testing"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/stats"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/stats"
 
-	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
-	mock_dockerstate "github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate/mocks"
-	mock_stats "github.com/as14692/amazon-ecs-agent/agent/stats/mock"
+	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
+	mock_dockerstate "github.com/aws/amazon-ecs-agent/agent/engine/dockerstate/mocks"
+	mock_stats "github.com/aws/amazon-ecs-agent/agent/stats/mock"
 	"github.com/docker/docker/api/types"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"

@@ -19,7 +19,7 @@ package data
 import (
 	"testing"
 
-	"github.com/as14692/amazon-ecs-agent/agent/engine/image"
+	"github.com/aws/amazon-ecs-agent/agent/engine/image"
 
 	"github.com/stretchr/testify/assert"
 )

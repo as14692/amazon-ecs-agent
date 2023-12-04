@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"net"
 
-	ni "github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	ni "github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
 
-	"github.com/as14692/amazon-ecs-agent/agent/api/serviceconnect"
+	"github.com/aws/amazon-ecs-agent/agent/api/serviceconnect"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/appmesh"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/appmesh"
 	"github.com/cihub/seelog"
 	"github.com/containernetworking/cni/libcni"
 	cniTypes "github.com/containernetworking/cni/pkg/types"

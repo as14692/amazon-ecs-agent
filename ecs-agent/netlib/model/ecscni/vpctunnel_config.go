@@ -16,7 +16,7 @@ package ecscni
 import (
 	"fmt"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
 )
 
 // VPCTunnelConfig defines the configuration for vpc-tunnel plugin. This struct will

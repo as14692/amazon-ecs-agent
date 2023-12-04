@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/stats"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/tcs/model/ecstcs"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/stats"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/tcs/model/ecstcs"
 	"github.com/cihub/seelog"
 	"github.com/docker/docker/api/types"
 )

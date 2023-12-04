@@ -16,7 +16,7 @@ package ecscni
 import (
 	"encoding/json"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
 
 	"github.com/containernetworking/cni/libcni"
 	cniTypes "github.com/containernetworking/cni/pkg/types"

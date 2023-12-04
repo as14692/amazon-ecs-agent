@@ -18,7 +18,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/as14692/amazon-ecs-agent/agent/dockerclient"
+	"github.com/aws/amazon-ecs-agent/agent/dockerclient"
 )
 
 const (

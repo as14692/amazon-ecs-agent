@@ -30,9 +30,9 @@ import (
 	"google.golang.org/grpc/status"
 	"k8s.io/klog/v2"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/daemonimages/csidriver/driver/internal"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/daemonimages/csidriver/util"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/daemonimages/csidriver/volume"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/daemonimages/csidriver/driver/internal"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/daemonimages/csidriver/util"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/daemonimages/csidriver/volume"
 )
 
 const (

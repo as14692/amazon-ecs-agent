@@ -33,10 +33,10 @@ import (
 	cniTypes "github.com/containernetworking/cni/pkg/types"
 	cniTypesCurrent "github.com/containernetworking/cni/pkg/types/100"
 
-	"github.com/as14692/amazon-ecs-agent/agent/api/serviceconnect"
-	mock_libcni "github.com/as14692/amazon-ecs-agent/agent/ecscni/mocks_libcni"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/appmesh"
-	ni "github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	"github.com/aws/amazon-ecs-agent/agent/api/serviceconnect"
+	mock_libcni "github.com/aws/amazon-ecs-agent/agent/ecscni/mocks_libcni"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/appmesh"
+	ni "github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
 )
 
 const (

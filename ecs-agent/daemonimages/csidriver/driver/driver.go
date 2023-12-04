@@ -27,8 +27,8 @@ import (
 	"google.golang.org/grpc"
 	"k8s.io/klog/v2"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/daemonimages/csidriver/util"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/daemonimages/csidriver/version"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/daemonimages/csidriver/util"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/daemonimages/csidriver/version"
 )
 
 // Driver encapsulates the GRPC server and the node service which implements all necessary interfaces, such as

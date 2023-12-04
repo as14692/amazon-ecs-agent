@@ -22,10 +22,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/as14692/amazon-ecs-agent/agent/config"
-	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi"
-	mock_sdkclient "github.com/as14692/amazon-ecs-agent/agent/dockerclient/sdkclient/mocks"
-	mock_sdkclientfactory "github.com/as14692/amazon-ecs-agent/agent/dockerclient/sdkclientfactory/mocks"
+	"github.com/aws/amazon-ecs-agent/agent/config"
+	"github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi"
+	mock_sdkclient "github.com/aws/amazon-ecs-agent/agent/dockerclient/sdkclient/mocks"
+	mock_sdkclientfactory "github.com/aws/amazon-ecs-agent/agent/dockerclient/sdkclientfactory/mocks"
 
 	"github.com/docker/docker/api/types"
 	"github.com/golang/mock/gomock"

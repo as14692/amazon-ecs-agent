@@ -24,9 +24,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	mock_audit "github.com/as14692/amazon-ecs-agent/ecs-agent/logger/audit/mocks"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger/audit/request"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/tmds/handlers/response"
+	mock_audit "github.com/aws/amazon-ecs-agent/ecs-agent/logger/audit/mocks"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/logger/audit/request"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/tmds/handlers/response"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

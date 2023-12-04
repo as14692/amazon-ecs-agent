@@ -35,7 +35,7 @@ phases:
       - GITHUBUSERNAME=$(ls)
       - mkdir -p src/github.com/
       - mv $GITHUBUSERNAME src/github.com/aws
-      - cd src/github.com/as14692/amazon-ecs-agent
+      - cd src/github.com/aws/amazon-ecs-agent
 
       # Build agent tars
       - GO111MODULE=auto

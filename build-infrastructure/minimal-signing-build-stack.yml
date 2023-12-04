@@ -24,7 +24,7 @@ Parameters:
   GitHubRepositoryUrl:
     Type: String
     Description: The repository to pull the Dockerfile from so that we can build the signer image
-    Default: https://github.com/as14692/amazon-ecs-agent
+    Default: https://github.com/aws/amazon-ecs-agent
   GitHubBranchName:
     Type: String
     Description: The branch to use from the repository mentioned above

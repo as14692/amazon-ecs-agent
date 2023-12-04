@@ -16,7 +16,7 @@ package task
 import (
 	"encoding/json"
 
-	ni "github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	ni "github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
 )
 
 // TaskENIs type enumerates the list of ENI objects as a type. It is used for

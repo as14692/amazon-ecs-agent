@@ -27,7 +27,7 @@ import (
 	cniTypesCurrent "github.com/containernetworking/cni/pkg/types/100"
 	"github.com/pkg/errors"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/logger"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/logger"
 )
 
 // CNIClient defines the method of setting/cleaning up container namespace

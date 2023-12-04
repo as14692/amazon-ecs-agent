@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
-	v2 "github.com/as14692/amazon-ecs-agent/agent/handlers/v2"
-	tmdsresponse "github.com/as14692/amazon-ecs-agent/ecs-agent/tmds/handlers/response"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/tmds/handlers/utils"
-	tmdsv2 "github.com/as14692/amazon-ecs-agent/ecs-agent/tmds/handlers/v2"
+	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
+	v2 "github.com/aws/amazon-ecs-agent/agent/handlers/v2"
+	tmdsresponse "github.com/aws/amazon-ecs-agent/ecs-agent/tmds/handlers/response"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/tmds/handlers/utils"
+	tmdsv2 "github.com/aws/amazon-ecs-agent/ecs-agent/tmds/handlers/v2"
 	"github.com/cihub/seelog"
 	"github.com/pkg/errors"
 )
@@ -85,7 +85,7 @@ func GetContainerNetworkMetadata(containerID string, state dockerstate.TaskEngin
 		return nil, errors.Errorf("Unable to find container '%s'", containerID)
 	}
 	// the logic here has been reused from
-	// https://github.com/as14692/amazon-ecs-agent/blob/0c8913ba33965cf6ffdd6253fad422458d9346bd/agent/containermetadata/parse_metadata.go#L123
+	// https://github.com/aws/amazon-ecs-agent/blob/0c8913ba33965cf6ffdd6253fad422458d9346bd/agent/containermetadata/parse_metadata.go#L123
 	settings := dockerContainer.Container.GetNetworkSettings()
 	if settings == nil {
 		seelog.Errorf("unable to get container network response for container '%s'", containerID)

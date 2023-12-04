@@ -18,9 +18,9 @@ import (
 
 	"context"
 
-	"github.com/as14692/amazon-ecs-agent/agent/config"
-	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi"
-	"github.com/as14692/amazon-ecs-agent/agent/stats/resolver"
+	"github.com/aws/amazon-ecs-agent/agent/config"
+	"github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi"
+	"github.com/aws/amazon-ecs-agent/agent/stats/resolver"
 )
 
 // ContainerStats encapsulates the raw CPU and memory utilization from cgroup fs.

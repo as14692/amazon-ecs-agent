@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/as14692/amazon-ecs-agent/agent/eni/netlinkwrapper"
-	apierrors "github.com/as14692/amazon-ecs-agent/ecs-agent/api/errors"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/utils/retry"
+	"github.com/aws/amazon-ecs-agent/agent/eni/netlinkwrapper"
+	apierrors "github.com/aws/amazon-ecs-agent/ecs-agent/api/errors"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/utils/retry"
 	"github.com/pkg/errors"
 
 	"github.com/cihub/seelog"

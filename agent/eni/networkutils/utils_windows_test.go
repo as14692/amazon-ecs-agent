@@ -26,7 +26,7 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	mock_netwrapper "github.com/as14692/amazon-ecs-agent/agent/eni/netwrapper/mocks"
+	mock_netwrapper "github.com/aws/amazon-ecs-agent/agent/eni/netwrapper/mocks"
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"

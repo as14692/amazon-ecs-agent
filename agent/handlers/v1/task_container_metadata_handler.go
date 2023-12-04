@@ -17,10 +17,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	apitask "github.com/as14692/amazon-ecs-agent/agent/api/task"
-	"github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
-	"github.com/as14692/amazon-ecs-agent/agent/handlers/utils"
-	commonutils "github.com/as14692/amazon-ecs-agent/ecs-agent/tmds/handlers/utils"
+	apitask "github.com/aws/amazon-ecs-agent/agent/api/task"
+	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
+	"github.com/aws/amazon-ecs-agent/agent/handlers/utils"
+	commonutils "github.com/aws/amazon-ecs-agent/ecs-agent/tmds/handlers/utils"
 	"github.com/cihub/seelog"
 )
 

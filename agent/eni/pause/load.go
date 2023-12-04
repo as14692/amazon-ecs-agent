@@ -14,7 +14,7 @@
 package pause
 
 import (
-	"github.com/as14692/amazon-ecs-agent/agent/utils/loader"
+	"github.com/aws/amazon-ecs-agent/agent/utils/loader"
 )
 
 type pauseLoader struct{}

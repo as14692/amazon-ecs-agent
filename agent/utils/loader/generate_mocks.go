@@ -13,4 +13,4 @@
 
 package loader
 
-//go:generate mockgen -destination=mocks/load_mocks.go -copyright_file=../../../scripts/copyright_file github.com/as14692/amazon-ecs-agent/agent/utils/loader Loader
+//go:generate mockgen -destination=mocks/load_mocks.go -copyright_file=../../../scripts/copyright_file github.com/aws/amazon-ecs-agent/agent/utils/loader Loader

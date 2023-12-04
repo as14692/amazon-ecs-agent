@@ -19,9 +19,9 @@ package data
 import (
 	"testing"
 
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/api/attachment"
-	"github.com/as14692/amazon-ecs-agent/ecs-agent/api/attachment/resource"
-	ni "github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/api/attachment"
+	"github.com/aws/amazon-ecs-agent/ecs-agent/api/attachment/resource"
+	ni "github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
 	"github.com/stretchr/testify/assert"
 )
 

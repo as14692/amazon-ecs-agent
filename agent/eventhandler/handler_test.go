@@ -21,10 +21,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/as14692/amazon-ecs-agent/agent/api"
-	mock_api "github.com/as14692/amazon-ecs-agent/agent/api/mocks"
-	"github.com/as14692/amazon-ecs-agent/agent/data"
-	"github.com/as14692/amazon-ecs-agent/agent/engine/dockerstate"
+	"github.com/aws/amazon-ecs-agent/agent/api"
+	mock_api "github.com/aws/amazon-ecs-agent/agent/api/mocks"
+	"github.com/aws/amazon-ecs-agent/agent/data"
+	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 )

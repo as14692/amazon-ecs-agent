@@ -22,14 +22,14 @@ import (
 	"runtime"
 	"testing"
 
-	apicontainer "github.com/as14692/amazon-ecs-agent/agent/api/container"
-	"github.com/as14692/amazon-ecs-agent/agent/config"
-	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi"
-	mock_dockerapi "github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi/mocks"
-	"github.com/as14692/amazon-ecs-agent/agent/taskresource"
-	taskresourcevolume "github.com/as14692/amazon-ecs-agent/agent/taskresource/volume"
-	apiresource "github.com/as14692/amazon-ecs-agent/ecs-agent/api/attachment/resource"
-	apicontainerstatus "github.com/as14692/amazon-ecs-agent/ecs-agent/api/container/status"
+	apicontainer "github.com/aws/amazon-ecs-agent/agent/api/container"
+	"github.com/aws/amazon-ecs-agent/agent/config"
+	"github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi"
+	mock_dockerapi "github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi/mocks"
+	"github.com/aws/amazon-ecs-agent/agent/taskresource"
+	taskresourcevolume "github.com/aws/amazon-ecs-agent/agent/taskresource/volume"
+	apiresource "github.com/aws/amazon-ecs-agent/ecs-agent/api/attachment/resource"
+	apicontainerstatus "github.com/aws/amazon-ecs-agent/ecs-agent/api/container/status"
 
 	"github.com/docker/docker/api/types/volume"
 	"github.com/golang/mock/gomock"
@@ -127,7 +127,7 @@ func TestMarshalTaskVolumesEFS(t *testing.T) {
 	  }`
 	if runtime.GOOS == "windows" {
 		// windows task defs have a special 'cpu/memory unbounded' field added.
-		// see https://github.com/as14692/amazon-ecs-agent/pull/1227
+		// see https://github.com/aws/amazon-ecs-agent/pull/1227
 		expectedTaskDef = fmt.Sprintf(expectedTaskDef, `{"cpuUnbounded": null, "memoryUnbounded": null}`)
 	} else {
 		expectedTaskDef = fmt.Sprintf(expectedTaskDef, "{}")
@@ -247,7 +247,7 @@ func TestMarshalEBSVolumes(t *testing.T) {
 	  }`
 	if runtime.GOOS == "windows" {
 		// windows task defs have a special 'cpu/memory unbounded' field added.
-		// see https://github.com/as14692/amazon-ecs-agent/pull/1227
+		// see https://github.com/aws/amazon-ecs-agent/pull/1227
 		expectedTaskDef = fmt.Sprintf(expectedTaskDef, `{"cpuUnbounded": null, "memoryUnbounded": null}`)
 	} else {
 		expectedTaskDef = fmt.Sprintf(expectedTaskDef, "{}")

@@ -18,8 +18,8 @@ import (
 
 	cniTypesCurrent "github.com/containernetworking/cni/pkg/types/100"
 
-	"github.com/as14692/amazon-ecs-agent/agent/dockerclient/dockerapi"
-	ni "github.com/as14692/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
+	"github.com/aws/amazon-ecs-agent/agent/dockerclient/dockerapi"
+	ni "github.com/aws/amazon-ecs-agent/ecs-agent/netlib/model/networkinterface"
 )
 
 // NamespaceHelper defines the methods for performing additional actions to setup/clean the task namespace.

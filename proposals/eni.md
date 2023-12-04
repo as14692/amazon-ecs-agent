@@ -19,7 +19,7 @@ configured for any container in the task), `bridge` (a primary network interface
 is configured for containers by creating a pair of `veth` devices and
 attaching one to the `docker0` bridge and the other to the container) and `host`
 (containers just use host's global default namespace) networking modes. As per
-comments in [this github issue](https://github.com/as14692/amazon-ecs-agent/issues/185),
+comments in [this github issue](https://github.com/aws/amazon-ecs-agent/issues/185),
 the `bridge` networking mode results in a number of issues for ECS users:
 
 1. All of the containers launched with this mode share the `docker0` bridge,
